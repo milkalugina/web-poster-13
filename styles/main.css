@@ -1,0 +1,90 @@
+@import "reset.css";
+
+html {
+  overflow-y: hidden;
+}
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+  overflow-x: scroll;
+}
+
+.wrapper {
+  display: flex;
+  overflow-y: scroll;
+  width: 2000px;
+}
+
+.window {
+  width: 100vw;
+  height: 100vh;
+  background-color: #FF7B7B;
+  overflow-y: hidden;
+  display: inline-block;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-x: repeat(100%);
+}
+
+.window_1 {
+  position: relative;
+  margin: 200px -30px 0 80px;
+}
+
+.window_1:hover {
+  z-index: 1;
+}
+
+.window_2 {
+  position: relative;
+  margin: 0 0 -85px -550px;
+}
+
+.window_2:hover {
+  z-index: 1;
+}
+
+.window_3 {
+  position: relative;
+  margin: 0 0 100px -600px;
+}
+
+.window_3:hover {
+  z-index: 1;
+}
+
+.window_4 {
+  position: relative;
+  margin: 0 0 -35px -600px;
+}
+
+.window_4:hover {
+  z-index: 1;
+}
+
+.window_5 {
+  position: relative;
+  margin: 0 0 20px -450px;
+}
+
+.window_5:hover {
+  z-index: 1;
+}
+
+.window_6 {
+  position: relative;
+  margin: 0 0 -130px -500px;
+}
+
+.fallBlocks {
+  background: url('../img/fallBlocks.svg');
+  height: 100vh;
+  width: 1920px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-x: repeat(100%);
+}
