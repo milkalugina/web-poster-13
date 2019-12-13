@@ -10,22 +10,23 @@ body {
   overflow-x: scroll;
 }
 
+/* БЛОК С ОКНАМИ */
+
 .wrapper {
-  display: flex;
+  display: inline-flex;
   overflow-y: scroll;
-  width: 2000px;
 }
 
 .window {
-  width: 100vw;
+  width: 2200px;
   height: 100vh;
   background-color: #FF7B7B;
   overflow-y: hidden;
   display: inline-block;
   overflow-x: auto;
   white-space: nowrap;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-x: repeat(100%);
+  /* scroll-snap-type: mandatory;
+  scroll-snap-points-x: repeat(100%); */
 }
 
 .window_1 {
@@ -78,13 +79,74 @@ body {
   margin: 0 0 -130px -500px;
 }
 
+/* ПАДАЮЩИЕ БЛОКИ */
+
 .fallBlocks {
+  position: relative;
+  height: 100vh;
+  width: 1920px;
   background: url('../img/fallBlocks.svg');
+  white-space: nowrap;
+}
+
+.history {
+  position: absolute;
+  top: -39px;
+  left: 100px;
+}
+
+.sings {
+  position: absolute;
+  top: 229px;
+  left: 286px;
+}
+
+.dash {
+  position: absolute;
+  top: 50px;
+  left: 609px;
+}
+
+.cat {
+  position: absolute;
+  top: 286px;
+  left: 885px;
+}
+
+.black {
+  position: absolute;
+  top: 587px;
+  left: 794px;
+}
+
+.about {
+  position: absolute;
+  top: 51px;
+  left: 1251px;
+}
+
+.saltShaker {
+  position: absolute;
+  top: 330px;
+  left: 1375px;
+}
+.cats {
+  position: absolute;
+  top: 587px;
+  left: 794px;
+}
+
+.colon {
+  position: absolute;
+  top: 587px;
+  left: 794px;
+}
+
+.noSings {
+  background: url('../img/noSings.svg');
   height: 100vh;
   width: 1920px;
   overflow-y: hidden;
   overflow-x: auto;
   white-space: nowrap;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-x: repeat(100%);
 }
