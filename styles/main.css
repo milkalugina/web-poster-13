@@ -20,11 +20,11 @@ body {
 .window {
   width: 2200px;
   height: 100vh;
-  background-color: #FF7B7B;
-  overflow-y: hidden;
-  display: inline-block;
   overflow-x: auto;
+  overflow-y: hidden;
   white-space: nowrap;
+  display: inline-block;
+  background-color: #FF7B7B;
   /* scroll-snap-type: mandatory;
   scroll-snap-points-x: repeat(100%); */
 }
@@ -32,51 +32,62 @@ body {
 .window_1 {
   position: relative;
   margin: 200px -30px 0 80px;
+
 }
 
 .window_1:hover {
   z-index: 1;
+
 }
 
 .window_2 {
   position: relative;
   margin: 0 0 -85px -550px;
+
 }
 
 .window_2:hover {
   z-index: 1;
+
 }
 
 .window_3 {
   position: relative;
   margin: 0 0 100px -600px;
+
 }
 
 .window_3:hover {
   z-index: 1;
+
 }
 
 .window_4 {
   position: relative;
   margin: 0 0 -35px -600px;
+
 }
 
 .window_4:hover {
   z-index: 1;
+
 }
 
 .window_5 {
   position: relative;
   margin: 0 0 20px -450px;
+
 }
 
 .window_5:hover {
   z-index: 1;
+
 }
 
 .window_6 {
   position: relative;
   margin: 0 0 -130px -500px;
+
 }
 
 /* ПАДАЮЩИЕ БЛОКИ */
@@ -87,66 +98,233 @@ body {
   width: 1920px;
   background: url('../img/fallBlocks.svg');
   white-space: nowrap;
+  z-index: 2;
 }
 
 .history {
+  opacity: 0;
   position: absolute;
-  top: -39px;
   left: 100px;
+  top: -39px;
+}
+
+.fallBlocks:hover .history {
+  opacity: 1;
+  animation: fall 1s cubic-bezier(.83,0,.01,.86) 0s;
 }
 
 .sings {
+  opacity: 0;
   position: absolute;
-  top: 229px;
   left: 286px;
+  top: 229px;
+}
+
+.fallBlocks:hover .sings {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.16,.71,.01,.86) 0s;
 }
 
 .dash {
+  opacity: 0;
   position: absolute;
-  top: 50px;
   left: 609px;
+  top: 50px;
+}
+
+.fallBlocks:hover .dash {
+  opacity: 1;
+  animation: fall 3s cubic-bezier(.91,.23,.64,1.67) 0s;
 }
 
 .cat {
+  opacity: 0;
   position: absolute;
-  top: 286px;
   left: 885px;
+  top: 286px;
+}
+
+.fallBlocks:hover .cat {
+  opacity: 1;
+  animation: fall 2s cubic-bezier(.62,.67,.72,-0.04) 0s;
 }
 
 .black {
+  opacity: 0;
   position: absolute;
-  top: 587px;
-  left: 794px;
+  left: 851px;
+  top: 673px;
+}
+
+.fallBlocks:hover .black {
+  opacity: 1;
+  animation: fall 4s cubic-bezier(.34,-0.74,.75,.42) 0s;
 }
 
 .about {
+  opacity: 0;
   position: absolute;
-  top: 51px;
   left: 1251px;
+  top: 51px;
+}
+
+.fallBlocks:hover .about {
+  opacity: 1;
+  animation: fall 2s cubic-bezier(1,-0.03,.4,1.05) 0s;
 }
 
 .saltShaker {
+  opacity: 0;
   position: absolute;
-  top: 330px;
   left: 1375px;
+  top: 330px;
 }
+
+.fallBlocks:hover .saltShaker {
+  opacity: 1;
+  animation: fall 3s cubic-bezier(.62,.67,.72,-0.04) 0s;
+}
+
 .cats {
+  opacity: 0;
   position: absolute;
-  top: 587px;
-  left: 794px;
+  left: 1670px;
+  top: 642px;
+}
+
+.fallBlocks:hover .cats {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.63,1.23,.72,-0.04) 0s;
 }
 
 .colon {
+  opacity: 0;
   position: absolute;
-  top: 587px;
-  left: 794px;
+  left: 1809px;
+  top: 300px;
 }
 
+.fallBlocks:hover .colon {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.73,.65,.12,.92) 0s;
+}
+
+.catPaint {
+  position: absolute;
+  left: 2052px;
+  top: 849px;
+}
+
+@keyframes fall {
+0% {
+  transform: translate3d(0,-100vw,0);
+  }
+
+100% {
+  transform: translate3d(0,0,0);
+}
+}
+
+/* НЕТ ПРИМЕТ */
+
 .noSings {
-  background: url('../img/noSings.svg');
+  background: url('../img/textSings.svg') 112px -42px, url('../img/noSings.svg') no-repeat;
+  position: relative;
   height: 100vh;
   width: 1920px;
   overflow-y: hidden;
   overflow-x: auto;
   white-space: nowrap;
+}
+
+.blackBox {
+  background-color: #000;
+  position: absolute;
+  width: 357px;
+  height: 122px;
+  left: 1210px;
+  top: 472px;
+  z-index: 2;
+  cursor: pointer;
+  border: 1px red;
+}
+
+.noSingsAfter {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: .5s;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.blackBox:hover ~ .noSingsAfter {
+  opacity: 1;
+  transition: .5s;
+}
+
+.textNo {
+  position: absolute;
+  top: 513px;
+  right: 472px;
+  z-index: 2;
+}
+
+/* НА СЧАСТЬЕ */
+
+.forLuck {
+  position: relative;
+  height: 100vh;
+  width: 1920px;
+}
+
+.saltIllustration {
+  position: absolute;
+  left: -500px;
+  top: 563px;
+  z-index: 2;
+}
+
+.saltShakerIllustrations {
+  position: absolute;
+  left: -220px;
+  top: 649px;
+}
+
+.catPushes {
+  position: absolute;
+  left: 482px;
+  top: 409px;
+}
+
+.phrase {
+  background: url(../img/phrase.svg) 0 31px;
+  width: 778px;
+  height: 659px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 960px;
+  top: -20px;
+}
+
+.catWords {
+  opacity: 0;
+  left: 10px;
+  top: 10px;
+  transition: 0.5s;
+}
+
+.phrase:hover .catWords {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.vandalism {
+    background: url('../img/textSings.svg') 112px -42px, url('../img/noSings.svg') no-repeat;
 }
