@@ -1,4 +1,8 @@
 @import "reset.css";
+@font-face {
+  font-family: 'ApercruPro';
+  src: url('../fonts/ApercuPro-Medium.otf') ;
+}
 
 html {
   overflow-y: hidden;
@@ -8,6 +12,36 @@ body {
   height: 100vh;
   min-height: 100vh;
   overflow-x: scroll;
+}
+
+/* ВОПРОС */
+
+.question {
+  position: fixed;
+  z-index: 3;
+  padding: 40px;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.modularWindow {
+  position: fixed;
+  top: 160px;
+  left: 0;
+  margin: 40px;
+  z-index: 3;
+  display: none;
+  font-family: 'ApercruPro';
+  font-size: 40px;
+  background-color: #fff;
+  border: 7px solid black;
+  padding: 30px;
+}
+
+.question:hover ~ .modularWindow {
+  display: block;
 }
 
 /* БЛОК С ОКНАМИ */
@@ -182,7 +216,7 @@ body {
 
 .fallBlocks:hover .saltShaker {
   opacity: 1;
-  animation: fall 3s cubic-bezier(.62,.67,.72,-0.04) 0s;
+  animation: fall 3s cubic-bezier(.17,-1.41,1,-1.48) 0s;
 }
 
 .cats {
@@ -245,8 +279,6 @@ body {
   left: 1210px;
   top: 472px;
   z-index: 2;
-  cursor: pointer;
-  border: 1px red;
 }
 
 .noSingsAfter {
@@ -318,13 +350,240 @@ body {
   left: 10px;
   top: 10px;
   transition: 0.5s;
+  animation: flashing 1.5s ease-in-out infinite;
 }
 
-.phrase:hover .catWords {
+/* .phrase:hover .catWords {
   opacity: 1;
   transition: 0.5s;
+} */
+
+@keyframes flashing {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
 
+/* ВАНДАЛЫ */
+
 .vandalism {
-    background: url('../img/textSings.svg') 112px -42px, url('../img/noSings.svg') no-repeat;
+  position: relative;
+  background: url('../img/vandalism.svg');
+  height: 1080px;
+  width: 3840px;
+}
+
+.drop_1 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 500px;
+  left: 560px;
+}
+
+.vandalism:hover .drop_1 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.73,.65,.12,.92) 0s;
+}
+
+.drop_2 {
+  opacity: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 700px;
+  left: 870px;
+}
+
+.vandalism:hover .drop_2 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.drop_3 {
+  opacity: 0;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 500px;
+  left: 1200px;
+}
+
+.vandalism:hover .drop_3 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.drop_4 {
+  opacity: 0;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 900px;
+  left: 1200px;
+}
+
+.vandalism:hover .drop_4 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.drop_5 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 800px;
+  left: 1600px;
+}
+
+.vandalism:hover .drop_5 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.drop_6 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 700px;
+  left: 1800px;
+}
+
+.vandalism:hover .drop_6 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+@keyframes fall {
+0% {
+  transform: translate3d(0,-100vw,0);
+  }
+
+100% {
+  transform: translate3d(0,0,0);
+  }
+}
+
+/* МИГАЮЩИЕ ГЛАЗА */
+
+.blinks {
+  position: relative;
+  height: 1080px;
+  width: 1920px;
+}
+
+.eyesLeft {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+
+.eyesRight {
+  opacity: 0;
+}
+
+.eyesLeft:hover ~ .eyesRight {
+  position: absolute;
+  top: 150px;
+  left: 500px;
+  opacity: 1;
+}
+
+/* МИГАЮЩИИЕ КОТЫ */
+
+.flashingCats {
+  height: 1080px;
+  width: 2170px;
+  overflow: hidden;
+}
+
+.bunchOfCats:hover {
+  opacity: 0;
+}
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  width: 1168px;
+  height: 1080px;
+  background: url('../img/footer.svg') no-repeat;
+  margin-left: -400px;
+}
+
+.museum {
+  opacity: 0;
+  position: absolute;
+  top: 103px;
+  left: 344px;
+}
+
+footer:hover .museum {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.sings13 {
+  opacity: 0;
+  position: absolute;
+  top: 216px;
+  left: 484px;
+}
+
+footer:hover .sings13 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.bucket {
+  opacity: 0;
+  position: absolute;
+  top: 490px;
+  left: 983px;
+}
+
+footer:hover .bucket {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.primetnayaStreet {
+  opacity: 0;
+  position: absolute;
+  top: 508px;
+  left: 437px;
+}
+
+footer:hover .primetnayaStreet {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+.home13 {
+  opacity: 0;
+  position: absolute;
+  top: 861px;
+  left: 867px;
+}
+
+footer:hover .home13 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+}
+
+@keyframes fall {
+0% {
+  transform: translate3d(0,-100vw,0);
+  }
+
+100% {
+  transform: translate3d(0,0,0);
+  }
 }
