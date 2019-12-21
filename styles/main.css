@@ -249,7 +249,7 @@ body {
   top: 849px;
 }
 
-@keyframes fall {
+/* @keyframes fall {
 0% {
   transform: translate3d(0,-100vw,0);
   }
@@ -257,7 +257,7 @@ body {
 100% {
   transform: translate3d(0,0,0);
 }
-}
+} */
 
 /* НЕТ ПРИМЕТ */
 
@@ -334,7 +334,7 @@ body {
 }
 
 .phrase {
-  background: url(../img/phrase.svg) 0 31px;
+  background: url(../img/phrase.svg) 0 31px no-repeat;
   width: 778px;
   height: 659px;
   display: flex;
@@ -388,7 +388,7 @@ body {
 
 .vandalism:hover .drop_1 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.73,.65,.12,.92) 0s;
+  animation: fall 4s cubic-bezier(.73,.65,.12,.92) 0s;
 }
 
 .drop_2 {
@@ -411,12 +411,12 @@ body {
   width: 40px;
   height: 40px;
   top: 500px;
-  left: 1200px;
+  left: 2800px;
 }
 
 .vandalism:hover .drop_3 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 2s cubic-bezier(0,-0.42,.67,-0.98) 0s;
 }
 
 .drop_4 {
@@ -430,7 +430,7 @@ body {
 
 .vandalism:hover .drop_4 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 3s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
 .drop_5 {
@@ -444,7 +444,7 @@ body {
 
 .vandalism:hover .drop_5 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 4s cubic-bezier(0,-0.42,.92,2.05) 0s;
 }
 
 .drop_6 {
@@ -458,10 +458,53 @@ body {
 
 .vandalism:hover .drop_6 {
   opacity: 1;
+  animation: fall 2s cubic-bezier(.31,1.08,.67,-0.98) 0s;
+}
+
+.drop_7 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 600px;
+  left: 1900px;
+}
+
+.vandalism:hover .drop_7 {
+  opacity: 1;
+  animation: fall 5s cubic-bezier(.12,-0.41,.67,-0.98) 0s;
+}
+
+.drop_8 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 800px;
+  left: 2000px;
+}
+
+.vandalism:hover .drop_8 {
+  opacity: 1;
+  animation: fall 3s cubic-bezier(.12,-0.41,.65,1.12) 0s;
+}
+
+.drop_9 {
+  opacity: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 500px;
+  left: 2500px;
+}
+
+.vandalism:hover .drop_9 {
+  opacity: 1;
   animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
-@keyframes fall {
+
+/* @keyframes fall {
 0% {
   transform: translate3d(0,-100vw,0);
   }
@@ -469,7 +512,7 @@ body {
 100% {
   transform: translate3d(0,0,0);
   }
-}
+} */
 
 /* МИГАЮЩИЕ ГЛАЗА */
 
@@ -486,6 +529,7 @@ body {
 }
 
 .eyesRight {
+  position: absolute;
   opacity: 0;
 }
 
@@ -514,8 +558,9 @@ footer {
   position: relative;
   width: 1168px;
   height: 1080px;
-  background: url('../img/footer.svg') no-repeat;
+  background: url('../img/footer.svg') no-repeat right;
   margin-left: -400px;
+  overflow: hidden;
 }
 
 .museum {
@@ -527,7 +572,7 @@ footer {
 
 footer:hover .museum {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 3.5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
 .sings13 {
@@ -539,7 +584,7 @@ footer:hover .museum {
 
 footer:hover .sings13 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 3s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
 .bucket {
@@ -551,7 +596,7 @@ footer:hover .sings13 {
 
 footer:hover .bucket {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 2.5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
 .primetnayaStreet {
@@ -563,7 +608,7 @@ footer:hover .bucket {
 
 footer:hover .primetnayaStreet {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 2s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
 .home13 {
@@ -575,10 +620,10 @@ footer:hover .primetnayaStreet {
 
 footer:hover .home13 {
   opacity: 1;
-  animation: fall 5s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
+  animation: fall 1s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
-@keyframes fall {
+/* @keyframes fall {
 0% {
   transform: translate3d(0,-100vw,0);
   }
@@ -586,4 +631,209 @@ footer:hover .home13 {
 100% {
   transform: translate3d(0,0,0);
   }
+} */
+
+@media (min-width: 1440px) {
+
+  body {
+    height: 900px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+
+  }
+
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 44px 0 -35px -400px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 20px -200px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 -100px -350px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 109px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+  }
+
+  .cat {
+    left: 745px;
+    top: 229px;
+  }
+
+  .black {
+    width: 500px;
+    height: 500px;
+    left: 834px;
+    top: 526px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 400px;
+    height: 400px;
+    left: 1121px;
+    top: 388px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 400px;
+    left: 1497px;
+    top: 322px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 613px;
+    height: 400px;
+    left: 1944px;
+    top: 515px;
+  }
+
+  .saltIllustration {
+    width: 300px;
+    height: 300px;
+    top: 520px;
+  }
+
+  .saltShakerIllustrations {
+    width: 613px;
+    height: 400px;
+    top: 500px;
+  }
+
+  .catPushes {
+    width: 613px;
+    height: 400px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 300px;
+    height: 300px;
+  }
+
+  .vandalism {
+    height: 900px;
+    width: 3226px;
+    background-size: 3228px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 900px;
+    width: 1440px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 50px;
+    left: 350px;
+  }
+
+  .flashingCats {
+    height: 900px;
+    width: 2000px;
+  }
+
+  footer {
+    height: 900px;
+    width: 1200px;
+    margin-left: -570px;
+  }
+
+  .museum {
+    top: 861px;
+    left: 867px;
+  }
+
+  .sings13 {
+    top: 861px;
+    left: 867px;
+  }
+
+  .bucket {
+    top: 861px;
+    left: 867px;
+  }
+
+  .primetnayaStreet {
+    top: 861px;
+    left: 867px;
+  }
+
+  .home13 {
+    top: 861px;
+    left: 867px;
+  }
+
+
 }
