@@ -127,6 +127,7 @@ body {
 /* ПАДАЮЩИЕ БЛОКИ */
 
 .fallBlocks {
+  overflow: hidden;
   position: relative;
   height: 100vh;
   width: 1920px;
@@ -224,6 +225,7 @@ body {
   position: absolute;
   left: 1670px;
   top: 642px;
+  z-index: 2;
 }
 
 .fallBlocks:hover .cats {
@@ -247,6 +249,7 @@ body {
   position: absolute;
   left: 2052px;
   top: 849px;
+  z-index: 2;
 }
 
 /* @keyframes fall {
@@ -424,7 +427,7 @@ body {
   position: absolute;
   width: 30px;
   height: 30px;
-  top: 900px;
+  top: 800px;
   left: 1200px;
 }
 
@@ -706,9 +709,9 @@ footer:hover .home13 {
 
   .black {
     width: 500px;
-    height: 500px;
+    height: 250px;
     left: 834px;
-    top: 526px;
+    top: 649px;
   }
 
   .about {
@@ -834,6 +837,5 @@ footer:hover .home13 {
     top: 861px;
     left: 867px;
   }
-
 
 }
