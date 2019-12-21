@@ -1,4 +1,16 @@
 @import "reset.css";
+@import "1680x1050.css";
+@import "1440x900.css";
+@import "1366x768.css";
+@import "1280x800.css";
+@import "1024x768.css";
+@import "768x1024.css";
+@import "414x896.css";
+@import "414x736.css";
+@import "375x812.css";
+@import "375x667.css";
+@import "320x568.css";
+
 @font-face {
   font-family: 'ApercruPro';
   src: url('../fonts/ApercuPro-Medium.otf') ;
@@ -127,7 +139,6 @@ body {
 /* ПАДАЮЩИЕ БЛОКИ */
 
 .fallBlocks {
-  overflow: hidden;
   position: relative;
   height: 100vh;
   width: 1920px;
@@ -635,207 +646,3 @@ footer:hover .home13 {
   transform: translate3d(0,0,0);
   }
 } */
-
-@media (min-width: 1440px) {
-
-  body {
-    height: 900px;
-  }
-
-  /* БЛОК С ОКНАМИ */
-
-  .window {
-
-  }
-
-  .window_ {
-    width: 600px;
-    height: 600px;
-  }
-
-  .window_1 {
-    position: relative;
-    margin: 100px 0 89px 120px;
-  }
-
-  .window_2 {
-    position: relative;
-    margin: 44px 0 -35px -400px;
-  }
-
-  .window_3 {
-    position: relative;
-    margin: 0 0 150px -350px;
-  }
-
-  .window_4 {
-    position: relative;
-    margin: 0 0 20px -200px;
-  }
-
-  .window_5 {
-    position: relative;
-    margin: 0 0 -100px -350px;
-  }
-
-  .window_6 {
-    position: relative;
-    margin: 0 0 109px -250px;
-  }
-
-  /* ПАДАЮЩИЕ БЛОКИ */
-
-  .history {
-    overflow: hidden;
-    width: 350px;
-    height: 350px;
-    top: -48px;
-  }
-
-  .sings {
-    width: 500px;
-    height: 500px;
-    left: 272px;
-    top: 60px;
-  }
-
-  .dash {
-  }
-
-  .cat {
-    left: 745px;
-    top: 229px;
-  }
-
-  .black {
-    width: 500px;
-    height: 250px;
-    left: 834px;
-    top: 649px;
-  }
-
-  .about {
-    width: 350px;
-    height: 350px;
-    left: 1223px;
-    top: 50px;
-  }
-
-  .saltShaker {
-    width: 400px;
-    height: 400px;
-    left: 1121px;
-    top: 388px;
-  }
-
-  .cats {
-    width: 500px;
-    height: 400px;
-    left: 1497px;
-    top: 322px;
-  }
-
-  .colon {
-    width: 300px;
-    height: 400px;
-    left: 1521px;
-    top: 84px;
-  }
-
-  .catPaint {
-    width: 613px;
-    height: 400px;
-    left: 1944px;
-    top: 515px;
-  }
-
-  .saltIllustration {
-    width: 300px;
-    height: 300px;
-    top: 520px;
-  }
-
-  .saltShakerIllustrations {
-    width: 613px;
-    height: 400px;
-    top: 500px;
-  }
-
-  .catPushes {
-    width: 613px;
-    height: 400px;
-  }
-
-  .phrase {
-    width: 639px;
-    height: 877px;
-    background-size: 600px 900px;
-    top: -150px;
-    left: 900px;
-  }
-
-  .catWords {
-    width: 300px;
-    height: 300px;
-  }
-
-  .vandalism {
-    height: 900px;
-    width: 3226px;
-    background-size: 3228px;
-  }
-
-  .blinks {
-    position: relative;
-    height: 900px;
-    width: 1440px;
-  }
-
-  .eyesLeft {
-    position: absolute;
-    top: 50px;
-    left: 350px;
-  }
-
-  .eyesLeft:hover ~ .eyesRight {
-    top: 50px;
-    left: 350px;
-  }
-
-  .flashingCats {
-    height: 900px;
-    width: 2000px;
-  }
-
-  footer {
-    height: 900px;
-    width: 1200px;
-    margin-left: -570px;
-  }
-
-  .museum {
-    top: 861px;
-    left: 867px;
-  }
-
-  .sings13 {
-    top: 861px;
-    left: 867px;
-  }
-
-  .bucket {
-    top: 861px;
-    left: 867px;
-  }
-
-  .primetnayaStreet {
-    top: 861px;
-    left: 867px;
-  }
-
-  .home13 {
-    top: 861px;
-    left: 867px;
-  }
-
-}

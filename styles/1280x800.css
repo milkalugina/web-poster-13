@@ -1,0 +1,246 @@
+
+
+@media (min-width: 1280px) {
+
+  body {
+    height: 800px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 34px 0 24px -482px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 50px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 114px -290px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 52px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+    width: 500px;
+    height: 221px;
+    left: 461px;
+    top: 31px;
+  }
+
+  .cat {
+    left: 878px;
+    height: 402px;
+    top: 96px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 650px;
+    top: 551px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 366px;
+    height: 368px;
+    left: 1040px;
+    top: 398px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 300px;
+    left: 1683px;
+    top: 302px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 513px;
+    height: 293px;
+    left: 2100px;
+    top: 502px;
+  }
+
+  .saltIllustration {
+    width: 250px;
+    height: 300px;
+    top: 374px;
+    left: -328px;
+  }
+
+  .saltShakerIllustrations {
+    width: 513px;
+    height: 286px;
+    top: 512px;
+    left: -150px;
+  }
+
+  .catPushes {
+    width: 613px;
+    top: 345px;
+    height: 442px;
+    left: 321px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 364px;
+    height: 381px;
+  }
+
+  .vandalism {
+    height: 800px;
+    width: 2857px;
+    background-size: 2854px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 768px;
+    width: 1366px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+
+  .flashingCats {
+    height: 800px;
+    width: 2000px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 800px;
+    width: 1160px;
+  }
+
+  .museum {
+    top: 74px;
+    left: 241px;
+  }
+
+  .sings13 {
+    height: 250px;
+    top: 154px;
+    left: 585px;
+  }
+
+  .bucket {
+    top: 306px;
+    left: 836px;
+    height: 217px;
+  }
+
+  .primetnayaStreet {
+    height: 300px;
+    top: 323px;
+    left: 369px;
+  }
+
+  .home13 {
+    top: 580px;
+    left: 870px;
+  }
+}
