@@ -3,7 +3,7 @@
 /* @import "media.css"; */
 
 @font-face {
-  font-family: 'ApercruPro';
+  font-family: 'ApercruPro', sans-serif;
   src: url('../fonts/ApercuPro-Medium.otf') ;
 }
 
@@ -834,7 +834,7 @@ footer:hover .home13 {
   .vandalism {
     height: 1050px;
     width: 3748px;
-    background-size: 3748px;s
+    background-size: 3748px;
   }
 
   .blinks {
@@ -1339,7 +1339,7 @@ footer:hover .home13 {
     height: 220px;
   }
 }
-@media (max-width: 1280px) and (max-height: 896px) {
+@media (max-width: 1280px) and (max-height: 800px) {
 
   body {
     height: 800px;
@@ -1492,8 +1492,8 @@ footer:hover .home13 {
 
   .vandalism {
     height: 800px;
-    width: 2857px;
-    background-size: 2854px;
+    width: 2898px;
+    background-size: 2898px;
   }
 
   .drop_8 {
@@ -1582,11 +1582,11 @@ footer:hover .home13 {
   }
 
   .home13 {
-    top: 580px;
-    left: 870px;
+    top: 564px;
+    left: 820px;
   }
 }
-@media (max-width: 1024px) and (max-height: 800px) {
+@media (max-width: 1024px) and (max-height: 768px) {
   body {
     height: 800px;
   }
@@ -1697,7 +1697,7 @@ footer:hover .home13 {
     height: 293px;
     left: 2100px;
     top: 466px;
-
+  }
 
   .noSings {
     margin-left: -2px;
@@ -1780,7 +1780,8 @@ footer:hover .home13 {
     width: 627px;
   }
   .eyesRight {
-    height: 100vh;
+    height: 756px;
+    width: 627px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
@@ -1788,6 +1789,7 @@ footer:hover .home13 {
     left: 435px;
     height: 756px;
     width: 627px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -2029,23 +2031,24 @@ footer:hover .home13 {
   .blinks {
     position: relative;
     height: 1024px;
-    width: 1024px;
+    width: 768px;
   }
 
   .eyesLeft {
     position: absolute;
     top: 200px;
-    left: 150px;
+    left: 1px;
     height: 600px;
     width: 800px;
   }
   .eyesRight {
-    height: 100vh;
+    height: 600px;
+    width: 800px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
     top: 200px;
-    left: 150px;
+    left: 1px;
     height: 600px;
     width: 800px;
     opacity: 1;
@@ -2094,8 +2097,8 @@ footer:hover .home13 {
   }
 
   .home13 {
-    left: 657px;
-    top: 725px;
+    left: 653px;
+    top: 726px;
     height: 300px;
     width: 500px;
   }
@@ -2154,7 +2157,7 @@ footer:hover .home13 {
 
   .fallBlocks {
     background-size: 2128px;
-    margin-right: -100px;ы
+    margin-right: -100px;
   }
 
   .history {
@@ -2318,8 +2321,8 @@ footer:hover .home13 {
   }
 
   .eyesRight {
-    height: 896px;
-    width: 414px;
+    height: 280px;
+    width: 280px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
@@ -2433,7 +2436,7 @@ footer:hover .home13 {
 
   .fallBlocks {
     background-size: 2128px;
-    margin-right: -100px;ы
+    margin-right: -100px;
   }
 
   .history {
@@ -2611,8 +2614,9 @@ footer:hover .home13 {
   }
 
   .eyesRight {
-    height: 736px;
-    width: 414px;
+    height: 280px;
+    width: 280px;
+    opacity: 0;
   }
 
   .eyesLeft:hover ~ .eyesRight {
@@ -2726,7 +2730,7 @@ footer:hover .home13 {
 
   .fallBlocks {
     background-size: 2128px;
-    margin-right: -100px;ы
+    margin-right: -100px;
   }
 
   .history {
@@ -2904,8 +2908,8 @@ footer:hover .home13 {
   }
 
   .eyesRight {
-    height: 736px;
-    width: 414px;
+    height: 280px;
+    width: 280px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
@@ -3021,7 +3025,7 @@ footer:hover .home13 {
 
   .fallBlocks {
     background-size: 2128px;
-    margin-right: -100px;ы
+    margin-right: -100px;
   }
 
   .history {
@@ -3185,12 +3189,12 @@ footer:hover .home13 {
   }
 
   .eyesRight {
-    height: 896px;
-    width: 414px;
+    height: 280px;
+    width: 280px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
-    top: 300px;
+    top: 200px;
     left: 72px;
     height: 280px;
     width: 280px;
@@ -3280,7 +3284,7 @@ footer:hover .home13 {
 
   .window_2 {
     position: relative;
-    ыmargin: 40px 0 43px -184px;
+    margin: 40px 0 43px -184px;
   }
 
   .window_3 {
