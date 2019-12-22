@@ -1,15 +1,6 @@
 @import "reset.css";
-/* @import "1680x1050.css";
-@import "1440x900.css";
-@import "1366x768.css";
-@import "1280x800.css";
-@import "1024x768.css";
-@import "768x1024.css";
-@import "414x896.css";
-@import "414x736.css";
-@import "375x812.css";
-@import "375x667.css";
-@import "320x568.css"; */
+
+/* @import "media.css"; */
 
 @font-face {
   font-family: 'ApercruPro';
@@ -552,7 +543,7 @@ body {
 }
 
 
-/* @keyframes fall {
+@keyframes fall {
 0% {
   transform: translate3d(0,-100vw,0);
   }
@@ -560,7 +551,7 @@ body {
 100% {
   transform: translate3d(0,0,0);
   }
-} */
+}
 
 /* МИГАЮЩИЕ ГЛАЗА */
 
@@ -687,7 +678,7 @@ footer:hover .home13 {
   animation: fall 1s cubic-bezier(.12,-0.41,.91,-0.61) 0s;
 }
 
-/* @keyframes fall {
+@keyframes fall {
 0% {
   transform: translate3d(0,-100vw,0);
   }
@@ -695,813 +686,417 @@ footer:hover .home13 {
 100% {
   transform: translate3d(0,0,0);
   }
-} */
-
-/* @media (max-width: 414px){
-  body {
-    height: 736px;
-  }
-
-  /* БЛОК С ОКНАМИ */
-
-  .window {
-    width: 3670px;
-  }
-  .window_ {
-    width: 900px;
-    height: 800px;
-  }
-
-  .window_1 {
-    position: relative;
-    margin: 400px 0 89px 50px;
-  }
-
-  .window_2 {
-    position: relative;
-    margin: 0 0 -528px -784px;
-  }
-
-  .window_3 {
-    position: relative;
-    margin: 0 0 335px -541px;
-  }
-
-  .window_4 {
-    position: relative;
-    margin: 0 0 -383px -335px;
-  }
-
-  .window_5 {
-    position: relative;
-    margin: 12px 0 269px -515px;
-  }
-
-  .window_6 {
-    position: relative;
-    margin: 6px 0 -290px -221px;
-  }
-
-  /* ПАДАЮЩИЕ БЛОКИ */
-
-  .fallBlocks {
-    background-size: 4128px;
-    margin-right: -100px;
-  }
-
-  .history {
-    overflow: hidden;
-    width: 900px;
-    height: 612px;
-    top: 100px;
-    left: 205px;
-  }
-
-  .sings {
-    width: 900px;
-    height: 500px;
-    left: 381px;
-    top: 620px;
-  }
-
-  .dash {
-    width: 600px;
-    height: 237px;
-    left: 1164px;
-    top: 223px;
-  }
-
-  .cat {
-    left: 1258px;
-    height: 700px;
-    top: 412px;
-  }
-
-  .black {
-    width: 680px;
-    height: 422px;
-    left: 854px;
-    top: 1480px;
-  }
-
-  .about {
-    width: 550px;
-    height: 550px;
-    left: 1873px;
-    top: 397px;
-  }
-
-  .saltShaker {
-    width: 700px;
-    height: 700px;
-    left: 1037px;
-    top: 964px;
-  }
-
-  .cats {
-    width: 823px;
-    height: 700px;
-    left: 1692px;
-    top: 1081px;
-  }
-
-  .colon {
-    width: 600px;
-    height: 500px;
-    left: 1561px;
-    top: 881px;
-  }
-
-  .catPaint {
-    width: 855px;
-    height: 494px;
-    left: 1573px;
-    top: 1384px;
-    transform: rotate(-40deg);
-  }
-
-  .noSings {
-    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
-  }
-
-  .saltIllustration {
-    width: 439px;
-    height: 380px;
-    top: 764px;
-    left: -462px;
-  }
-
-  .saltShakerIllustrations {
-    width: 934px;
-    height: 514px;
-    top: 1307px;
-    left: -299px;
-    transform: rotateZ(66deg);
-  }
-
-  .catPushes {
-    width: 891px;
-    top: 1200px;
-    height: 805px;
-    left: 430px;
-  }
-
-  .phrase {
-    width: 848px;
-    height: 924px;
-    background-size: 901px 1312px;
-    top: 127px;
-    left: 900px;
-  }
-
-  .catWords {
-    width: 619px;
-    height: 681px;
-    margin-top: 340px;
-    margin-left: 40px;
-  }
-
-  .vandalism {
-    height: 2117px;
-    width: 7747px;
-    background-size: 7747px;
-  }
-
-  .drop_8 {
-    top: 300px;
-    left: 1600px;
-  }
-
-  .drop_9 {
-    left: 1700px;
-  }
-
-  .drop_5 {
-    top: 400px;
-    left: 1800px;
-  }
-
-  .drop_4 {
-    top: 600px;
-    left: 1200px;
-  }
-
-  .drop_3 {
-    left: 500px;
-  }
-
-  .blinks {
-    position: relative;
-    height: 2208px;
-    width: 930px;
-  }
-
-  .eyesLeft {
-    position: absolute;
-    top: 600px;
-    left: 83px;
-    height: 800px;
-    width: 800px;
-  }
-
-  .eyesRight {
-    height: 2208px;
-  }
-
-  .eyesLeft:hover ~ .eyesRight {
-    top: 600px;
-    left: 83px;
-    height: 800px;
-    width: 800px;
-  }
-
-  .flashingCats {
-    height: 2215px;
-    width: 1500px;
-    margin-right: -300px;
-  }
-
-  .bunchOfCats {
-    height: 200px;
-    width: 200px;
-  }
-
-  footer {
-    height: 2119px;
-    width: 1500px;
-    background-size: 2363px;
-    background-position: left;
-  }
-
-  .museum {
-    top: 353px;
-    height: 500px;
-    left: 51px;
-  }
-
-  .sings13 {
-    height: 606px;
-    top: 656px;
-    left: 249px;
-  }
-
-  .bucket {
-    top: 1023px;
-    left: 836px;
-    height: 572px;
-  }
-
-  .primetnayaStreet {
-    height: 514px;
-    top: 1325px;
-    left: 310px;
-  }
-
-  .home13 {
-    left: 1019px;
-    top: 1772px;
-    height: 350px;
-    width: 500px;
-  }
-} */
-
-@media (max-width: 414px) {
-  body {
-    height: 896px;
-  }
-
-  /* БЛОК С ОКНАМИ */
-
-  .window {
-    width: 3670px;
-  }
-  .window_ {
-    width: 1000px;
-    height: 800px;
-  }
-
-  .window_1 {
-    position: relative;
-    margin: 400px 0 89px 50px;
-  }
-
-  .window_2 {
-    position: relative;
-    margin: 0 0 -528px -784px;
-  }
-
-  .window_3 {
-    position: relative;
-    margin: 0 0 335px -541px;
-  }
-
-  .window_4 {
-    position: relative;
-    margin: 0 0 -383px -335px;
-  }
-
-  .window_5 {
-    position: relative;
-    margin: 12px 0 269px -515px;
-  }
-
-  .window_6 {
-    position: relative;
-    margin: 6px 0 -290px -221px;
-  }
-
-  /* ПАДАЮЩИЕ БЛОКИ */
-
-  .fallBlocks {
-    background-size: 4128px;
-    margin-right: -100px;
-  }
-
-  .history {
-    overflow: hidden;
-    width: 900px;
-    height: 612px;
-    top: 100px;
-    left: 205px;
-  }
-
-  .sings {
-    width: 900px;
-    height: 500px;
-    left: 381px;
-    top: 620px;
-  }
-
-  .dash {
-    width: 600px;
-    height: 237px;
-    left: 1164px;
-    top: 223px;
-  }
-
-  .cat {
-    left: 1258px;
-    height: 700px;
-    top: 412px;
-  }
-
-  .black {
-    width: 680px;
-    height: 422px;
-    left: 854px;
-    top: 1480px;
-  }
-
-  .about {
-    width: 550px;
-    height: 550px;
-    left: 1873px;
-    top: 397px;
-  }
-
-  .saltShaker {
-    width: 700px;
-    height: 700px;
-    left: 1037px;
-    top: 964px;
-  }
-
-  .cats {
-    width: 823px;
-    height: 700px;
-    left: 1692px;
-    top: 1081px;
-  }
-
-  .colon {
-    width: 600px;
-    height: 500px;
-    left: 1561px;
-    top: 881px;
-  }
-
-  .catPaint {
-    width: 855px;
-    height: 494px;
-    left: 1573px;
-    top: 1384px;
-    transform: rotate(-40deg);
-  }
-
-  .noSings {
-    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
-  }
-
-  .saltIllustration {
-    width: 439px;
-    height: 380px;
-    top: 764px;
-    left: -462px;
-  }
-
-  .saltShakerIllustrations {
-    width: 934px;
-    height: 514px;
-    top: 1307px;
-    left: -299px;
-    transform: rotateZ(66deg);
-  }
-
-  .catPushes {
-    width: 891px;
-    top: 1200px;
-    height: 805px;
-    left: 430px;
-  }
-
-  .phrase {
-    width: 848px;
-    height: 924px;
-    background-size: 901px 1312px;
-    top: 127px;
-    left: 900px;
-  }
-
-  .catWords {
-    width: 619px;
-    height: 681px;
-    margin-top: 340px;
-    margin-left: 40px;
-  }
-
-  .vandalism {
-    height: 2117px;
-    width: 7747px;
-    background-size: 7747px;
-  }
-
-  .drop_8 {
-    top: 300px;
-    left: 1600px;
-  }
-
-  .drop_9 {
-    left: 1700px;
-  }
-
-  .drop_5 {
-    top: 400px;
-    left: 1800px;
-  }
-
-  .drop_4 {
-    top: 600px;
-    left: 1200px;
-  }
-
-  .drop_3 {
-    left: 500px;
-  }
-
-  .blinks {
-    position: relative;
-    height: 2208px;
-    width: 930px;
-  }
-
-  .eyesLeft {
-    position: absolute;
-    top: 600px;
-    left: 83px;
-    height: 800px;
-    width: 800px;
-  }
-
-  .eyesRight {
-    height: 2208px;
-  }
-
-  .eyesLeft:hover ~ .eyesRight {
-    top: 600px;
-    left: 83px;
-    height: 800px;
-    width: 800px;
-  }
-
-  .flashingCats {
-    height: 2215px;
-    width: 1500px;
-    margin-right: -300px;
-  }
-
-  .bunchOfCats {
-    height: 200px;
-    width: 200px;
-  }
-
-  footer {
-    height: 2119px;
-    width: 1500px;
-    background-size: 2363px;
-    background-position: left;
-  }
-
-  .museum {
-    top: 353px;
-    height: 500px;
-    left: 51px;
-  }
-
-  .sings13 {
-    height: 606px;
-    top: 656px;
-    left: 249px;
-  }
-
-  .bucket {
-    top: 1023px;
-    left: 836px;
-    height: 572px;
-  }
-
-  .primetnayaStreet {
-    height: 514px;
-    top: 1325px;
-    left: 310px;
-  }
-
-  .home13 {
-    left: 1019px;
-    top: 1772px;
-    height: 350px;
-    width: 500px;
-  }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1680px) and (max-height: 1050px) {
 
   body {
-    height: 800px;
+    height: 1050px;
   }
 
   /* БЛОК С ОКНАМИ */
 
   .window {
-    width: 3191px;
-    margin-right: -2px;
+    width: 2800px;
   }
   .window_ {
-    width: 847px;
-    height: 747px;
+    width: 700px;
+    height: 600px;
   }
 
   .window_1 {
     position: relative;
-    margin: 250px 0 89px 120px;
+    margin: 100px 0 170px 120px;
   }
 
   .window_2 {
     position: relative;
-    margin: 55px 0 -108px -678px;
+    margin: 44px 0 -35px -400px;
   }
 
   .window_3 {
     position: relative;
-    margin: 0 0 224px -476px;
+    margin: 0 0 150px -350px;
   }
 
   .window_4 {
     position: relative;
-    margin: 0 0 50px -335px;
+    margin: 0 0 20px -200px;
   }
 
   .window_5 {
     position: relative;
-    margin: 0 0 208px -351px;
+    margin: 0 0 -100px -350px;
   }
 
   .window_6 {
     position: relative;
-    margin: 0 0 52px -250px;
+    margin: 0 0 109px -250px;
   }
 
   /* ПАДАЮЩИЕ БЛОКИ */
 
-  .fallBlocks {
-    background-size: 4128px;
-    margin-right: -100px;
-  }
-
   .history {
     overflow: hidden;
-    width: 500px;
-    height: 500px;
-    top: -72px;
-    left: 209px;
+    width: 350px;
+    height: 350px;
+    top: -48px;
   }
 
   .sings {
     width: 500px;
     height: 500px;
     left: 272px;
-    top: 206px;
+    top: 60px;
   }
 
   .dash {
-    width: 564px;
-    height: 237px;
-    left: 764px;
-    top: 227px;
   }
 
   .cat {
-    left: 584px;
-    height: 642px;
-    top: 368px;
+    left: 614px;
+    top: 278px;
   }
 
   .black {
-    width: 560px;
-    height: 270px;
-    left: 662px;
-    top: 1037px;
+    width: 630px;
+    height: 310px;
+    left: 821px;
+    top: 740px;
   }
 
   .about {
     width: 350px;
     height: 350px;
-    left: 1273px;
-    top: 141px;
+    left: 1223px;
+    top: 50px;
   }
 
   .saltShaker {
-    width: 550px;
-    height: 550px;
-    left: 1017px;
-    top: 698px;
+    width: 491px;
+    height: 487px;
+    left: 1067px;
+    top: 388px;
   }
 
   .cats {
-    width: 700px;
-    height: 300px;
-    left: 1428px;
-    top: 581px;
+    width: 500px;
+    height: 400px;
+    left: 1497px;
+    top: 322px;
   }
 
   .colon {
     width: 300px;
     height: 400px;
     left: 1521px;
-    top: 274px;
-
+    top: 84px;
   }
 
   .catPaint {
-    width: 813px;
-    height: 480px;
-    left: 1700px;
-    top: 813px;
-  }
-
-  .noSings {
-    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat 0 / 130% auto;
+    width: 639px;
+    height: 360px;
+    left: 1809px;
+    top: 676px;
   }
 
   .saltIllustration {
-    width: 439px;
-    height: 380px;
-    top: 764px;
-    left: -462px;
+    width: 300px;
+    height: 300px;
+    top: 520px;
   }
 
   .saltShakerIllustrations {
-    width: 675px;
-    height: 454px;
-    top: 729px;
-    left: -139px;
+    width: 613px;
+    height: 400px;
+    top: 600px;
   }
 
   .catPushes {
-    width: 691px;
-    top: 639px;
-    height: 505px;
-    left: 493px;
+    width: 752px;
+    height: 549px;
+    left: 358px;
   }
 
   .phrase {
-    width: 715px;
-    height: 930px;
-    background-size: 701px 912px;
-    top: 96px;
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
     left: 900px;
   }
 
   .catWords {
-    width: 364px;
-    height: 381px;
+    width: 700px;
+    height: 400px;
   }
 
   .vandalism {
-    height: 1304px;
-    width: 4679px;
-    background-size: 4692px;
-  }
-
-  .drop_8 {
-    top: 300px;
-    left: 1600px;
-  }
-
-  .drop_9 {
-    left: 1700px;
-  }
-
-  .drop_5 {
-    top: 400px;
-    left: 1800px;
-  }
-
-  .drop_4 {
-    top: 600px;
-    left: 1200px;
-  }
-
-  .drop_3 {
-    left: 500px;
+    height: 1050px;
+    width: 3748px;
+    background-size: 3748px;s
   }
 
   .blinks {
     position: relative;
-    height: 1304px;
-    width: 1024px;
+    height: 1050px;
+    width: 1680px;
   }
 
   .eyesLeft {
     position: absolute;
-    top: 200px;
-    left: 150px;
-    height: 800px;
-    width: 800px;
-  }
-  .eyesRight {
-    height: 100vh;
+    top: 50px;
+    left: 350px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
-    top: 200px;
-    left: 150px;
-    height: 800px;
-    width: 800px;
+    top: 50px;
+    left: 350px;
   }
 
   .flashingCats {
+    height: 1050px;
     width: 2000px;
-    height: 100vh;
-    margin-right: -167px;
-  }
-
-  .bunchOfCats {
-    height: 200px;
-    width: 200px;
   }
 
   footer {
-    height: 1308px;
-    width: 1500px;
-    background-size: 2363px;
-    background-position: left;
+    height: 1050px;
+    width: 1200px;
+    margin-left: -570px;
   }
 
   .museum {
-    top: 81px;
-    height: 400px;
-    left: 78px;
+    top: 61px;
+    left: 61px;
   }
 
   .sings13 {
-    height: 400px;
-    top: 271px;
-    left: 585px;
+    top: 61px;
+    left: 421px;
   }
 
   .bucket {
-    top: 550px;
-    left: 836px;
-    height: 400px;
+    top: 214px;
+    left: 805px;
+    height: 350px;
   }
 
   .primetnayaStreet {
-    height: 400px;
-    top: 702px;
-    left: 319px;
+    top: 368px;
+    left: 397px;
   }
 
   .home13 {
-    left: 1019px;
-    top: 956px;
+    top: 700px;
     height: 350px;
-    width: 500px;
+    left: 737px;
   }
 }
+@media (max-width: 1440px) and (max-height: 900px) {
 
-@media (min-width: 1024px) {
   body {
-    height: 800px;
+    height: 900px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 2000px;
+  }
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 44px 0 -35px -400px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 20px -200px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 -100px -350px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 109px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .cat {
+    left: 745px;
+    top: 229px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 834px;
+    top: 649px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 400px;
+    height: 400px;
+    left: 1121px;
+    top: 388px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 400px;
+    left: 1497px;
+    top: 322px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 613px;
+    height: 359px;
+    left: 1944px;
+    top: 539px;
+  }
+
+  .saltIllustration {
+    width: 300px;
+    height: 300px;
+    top: 520px;
+  }
+
+  .saltShakerIllustrations {
+    width: 613px;
+    height: 400px;
+    top: 500px;
+  }
+
+  .catPushes {
+    width: 613px;
+    height: 440px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 428px;
+    height: 370px;
+    margin-top: 20px;
+  }
+
+  .vandalism {
+    height: 900px;
+    width: 3226px;
+    background-size: 3228px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 900px;
+    width: 1440px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 50px;
+    left: 350px;
+  }
+
+  .flashingCats {
+    height: 900px;
+    width: 2000px;
+  }
+
+  footer {
+    height: 900px;
+    width: 1200px;
+    margin-left: -570px;
+  }
+
+  .museum {
+    top: 61px;
+    left: 61px;
+  }
+
+  .sings13 {
+    top: 61px;
+    left: 421px;
+  }
+
+  .bucket {
+    top: 211px;
+    left: 817px;
+  }
+
+  .primetnayaStreet {
+    top: 361px;
+    left: 397px;
+    height: 344px;
+  }
+
+  .home13 {
+    top: 660px;
+    left: 891px;
+    height: 235px;
+  }
+}
+@media (max-width: 1366px) and (max-height: 768px) {
+
+  body {
+    height: 768px;
   }
 
   /* БЛОК С ОКНАМИ */
@@ -1565,16 +1160,16 @@ footer:hover .home13 {
   }
 
   .cat {
-    left: 880px;
-    height: 402px;
-    top: 110px;
+    left: 878px;
+    height: 400px;
+    top: 87px;
   }
 
   .black {
     width: 500px;
     height: 250px;
     left: 650px;
-    top: 518px;
+    top: 516px;
   }
 
   .about {
@@ -1587,7 +1182,7 @@ footer:hover .home13 {
   .saltShaker {
     width: 366px;
     height: 368px;
-    left: 1064px;
+    left: 1066px;
     top: 398px;
   }
 
@@ -1609,7 +1204,7 @@ footer:hover .home13 {
     width: 513px;
     height: 293px;
     left: 2100px;
-    top: 466px;
+    top: 470px;
   }
 
   .saltIllustration {
@@ -1622,15 +1217,15 @@ footer:hover .home13 {
   .saltShakerIllustrations {
     width: 513px;
     height: 286px;
-    top: 475px;
-    left: -139px;
+    top: 461px;
+    left: -150px;
   }
 
   .catPushes {
     width: 613px;
-    top: 289px;
+    top: 288px;
     height: 442px;
-    left: 329px;
+    left: 321px;
   }
 
   .phrase {
@@ -1648,8 +1243,8 @@ footer:hover .home13 {
 
   .vandalism {
     height: 768px;
-    width: 2780px;
-    background-size: 2785px;
+    width: 2744px;
+    background-size: 2750px;
   }
 
   .drop_8 {
@@ -1683,24 +1278,25 @@ footer:hover .home13 {
 
   .eyesLeft {
     position: absolute;
-    top: -2px;
+    top: -18px;
     left: 435px;
-    height: 756px;
-    width: 627px;
+    height: 775px;
+    width: 700px;
   }
+
   .eyesRight {
     height: 100vh;
   }
 
   .eyesLeft:hover ~ .eyesRight {
-    top: -2px;
+    top: -18px;
     left: 435px;
-    height: 756px;
-    width: 627px;
+    height: 775px;
+    width: 700px;
   }
 
   .flashingCats {
-    height: 800px;
+    height: 768px;
     width: 2000px;
   }
 
@@ -1710,7 +1306,7 @@ footer:hover .home13 {
   }
 
   footer {
-    height: 800px;
+    height: 768px;
     width: 1160px;
   }
 
@@ -1738,19 +1334,22 @@ footer:hover .home13 {
   }
 
   .home13 {
-    left: 870px;
-    top: 549px;
+    top: 548px;
+    left: 869px;
+    height: 220px;
   }
 }
-
-@media (min-width: 1280px) {
+@media (max-width: 1280px) and (max-height: 896px) {
 
   body {
     height: 800px;
   }
 
   /* БЛОК С ОКНАМИ */
+  .window {
+    width: 2100px;
 
+  }
   .window_ {
     width: 600px;
     height: 600px;
@@ -1987,11 +1586,9 @@ footer:hover .home13 {
     left: 870px;
   }
 }
-
-@media (min-width: 1366px) {
-
+@media (max-width: 1024px) and (max-height: 800px) {
   body {
-    height: 768px;
+    height: 800px;
   }
 
   /* БЛОК С ОКНАМИ */
@@ -2055,16 +1652,16 @@ footer:hover .home13 {
   }
 
   .cat {
-    left: 878px;
-    height: 400px;
-    top: 87px;
+    left: 880px;
+    height: 402px;
+    top: 110px;
   }
 
   .black {
     width: 500px;
     height: 250px;
     left: 650px;
-    top: 516px;
+    top: 518px;
   }
 
   .about {
@@ -2077,7 +1674,7 @@ footer:hover .home13 {
   .saltShaker {
     width: 366px;
     height: 368px;
-    left: 1066px;
+    left: 1064px;
     top: 398px;
   }
 
@@ -2099,7 +1696,11 @@ footer:hover .home13 {
     width: 513px;
     height: 293px;
     left: 2100px;
-    top: 470px;
+    top: 466px;
+
+
+  .noSings {
+    margin-left: -2px;
   }
 
   .saltIllustration {
@@ -2112,15 +1713,15 @@ footer:hover .home13 {
   .saltShakerIllustrations {
     width: 513px;
     height: 286px;
-    top: 461px;
-    left: -150px;
+    top: 475px;
+    left: -139px;
   }
 
   .catPushes {
     width: 613px;
-    top: 288px;
+    top: 289px;
     height: 442px;
-    left: 321px;
+    left: 329px;
   }
 
   .phrase {
@@ -2137,9 +1738,9 @@ footer:hover .home13 {
   }
 
   .vandalism {
-    height: 768px;
-    width: 2744px;
-    background-size: 2743px;
+    height: 800px;
+    width: 2857px;
+    background-size: 2857px;
   }
 
   .drop_8 {
@@ -2173,24 +1774,24 @@ footer:hover .home13 {
 
   .eyesLeft {
     position: absolute;
-    top: -18px;
+    top: -2px;
     left: 435px;
-    height: 775px;
-    width: 700px;
+    height: 756px;
+    width: 627px;
   }
   .eyesRight {
     height: 100vh;
   }
 
   .eyesLeft:hover ~ .eyesRight {
-    top: -18px;
+    top: -2px;
     left: 435px;
-    height: 775px;
-    width: 700px;
+    height: 756px;
+    width: 627px;
   }
 
   .flashingCats {
-    height: 768px;
+    height: 800px;
     width: 2000px;
   }
 
@@ -2200,7 +1801,7 @@ footer:hover .home13 {
   }
 
   footer {
-    height: 768px;
+    height: 800px;
     width: 1160px;
   }
 
@@ -2228,209 +1829,1710 @@ footer:hover .home13 {
   }
 
   .home13 {
-    top: 547px;
     left: 870px;
+    top: 549px;
   }
 }
-
-@media (min-width: 1440px) {
+@media (max-width: 768px) and (max-height: 1024px) {
 
   body {
-    height: 900px;
+    height: 800px;
   }
 
   /* БЛОК С ОКНАМИ */
 
   .window {
-    width: 2000px;
+    width: 1940px;
+    margin-right: -2px;
   }
   .window_ {
-    width: 600px;
-    height: 600px;
+    width: 647px;
+    height: 747px;
   }
 
   .window_1 {
     position: relative;
-    margin: 100px 0 89px 120px;
+    margin: 50px 0 89px 120px;
   }
 
   .window_2 {
     position: relative;
-    margin: 44px 0 -35px -400px;
+    margin: 55px 0 -108px -678px;
   }
 
   .window_3 {
     position: relative;
-    margin: 0 0 150px -350px;
+    margin: 0 0 224px -476px;
   }
 
   .window_4 {
     position: relative;
-    margin: 0 0 20px -200px;
+    margin: 0 0 50px -335px;
   }
 
   .window_5 {
     position: relative;
-    margin: 0 0 -100px -350px;
+    margin: 0 0 208px -351px;
   }
 
   .window_6 {
     position: relative;
-    margin: 0 0 109px -250px;
+    margin: 0 0 52px -250px;
   }
 
   /* ПАДАЮЩИЕ БЛОКИ */
 
+  .fallBlocks {
+    background-size: 4128px;
+    margin-right: -100px;
+  }
+
   .history {
     overflow: hidden;
-    width: 350px;
-    height: 350px;
-    top: -48px;
+    width: 500px;
+    height: 500px;
+    top: -72px;
+    left: 209px;
   }
 
   .sings {
     width: 500px;
     height: 500px;
     left: 272px;
-    top: 60px;
+    top: 206px;
   }
 
   .dash {
+    width: 564px;
+    height: 237px;
+    left: 764px;
+    top: 227px;
   }
 
   .cat {
-    left: 745px;
-    top: 229px;
+    left: 635px;
+    height: 512px;
+    top: 371px;
   }
 
   .black {
-    width: 500px;
-    height: 250px;
-    left: 834px;
-    top: 649px;
+    width: 560px;
+    height: 270px;
+    left: 500px;
+    top: 754px;
   }
 
   .about {
     width: 350px;
     height: 350px;
-    left: 1223px;
-    top: 50px;
+    left: 1273px;
+    top: 141px;
+  }
+
+  .saltShaker {
+    width: 500px;
+    height: 500px;
+    left: 1157px;
+    top: 525px;
+  }
+
+  .cats {
+    width: 700px;
+    height: 300px;
+    left: 1628px;
+    top: 246px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 300px;
+    left: 1536px;
+    top: 70px;
+  }
+
+  .catPaint {
+    width: 813px;
+    height: 480px;
+    left: 1700px;
+    top: 513px;
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat 0 / 130% auto;
+  }
+
+  .saltIllustration {
+    width: 439px;
+    height: 380px;
+    top: 464px;
+    left: -462px;
+  }
+
+  .saltShakerIllustrations {
+    width: 636px;
+    height: 442px;
+    top: 580px;
+    left: -139px;
+  }
+
+  .catPushes {
+    width: 691px;
+    top: 445px;
+    height: 505px;
+    left: 451px;
+  }
+
+  .phrase {
+    width: 715px;
+    height: 730px;
+    background-size: 701px 912px;
+    top: -72px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 500px;
+    height: 500px;
+    margin-top: 130px;
+
+  }
+
+  .vandalism {
+    height: 1024px;
+    width: 3748px;
+    background-size: 3748px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 1024px;
+    width: 1024px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    height: 600px;
+    width: 800px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 200px;
+    left: 150px;
+    height: 600px;
+    width: 800px;
+  }
+
+  .flashingCats {
+    width: 2000px;
+    height: 100vh;
+    margin-right: -167px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 1024px;
+    width: 1100px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 138px;
+    height: 300px;
+    left: 108px;
+  }
+
+  .sings13 {
+    height: 300px;
+    top: 281px;
+    left: 481px;
+  }
+
+  .bucket {
+    top: 475px;
+    left: 716px;
+    height: 300px;
+  }
+
+  .primetnayaStreet {
+    height: 300px;
+    top: 537px;
+    left: 207px;
+  }
+
+  .home13 {
+    left: 657px;
+    top: 725px;
+    height: 300px;
+    width: 500px;
+  }
+}
+@media (max-width: 414px) and (max-height: 896px) {
+  body {
+    height: 896px;
+  }
+
+  .modularWindow {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 1300px;
+  }
+  .window_ {
+    width: 500px;
+    height: 400px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 0 0 89px 15px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 40px 0 250px -384px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 -20px -441px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 -146px -361px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 69px -215px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 180px -342px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 2128px;
+    margin-right: -100px;ы
+  }
+
+  .history {
+    width: 700px;
+    height: 312px;
+    top: 169px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 227px;
+    left: 359px;
+    top: 460px;
+  }
+
+  .dash {
+    width: 400px;
+    height: 237px;
+    left: 1564px;
+    top: 438px;
+  }
+
+  .cat {
+    left: 1035px;
+    height: 600px;
+    top: 62px;
+  }
+
+  .black {
+    width: 420px;
+    height: 200px;
+    left: 354px;
+    top: 696px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1944px;
+    top: 338px;
+  }
+
+  .saltShaker {
+    width: 350px;
+    height: 350px;
+    left: 1345px;
+    top: 544px;
+  }
+
+  .cats {
+    width: 484px;
+    height: 198px;
+    left: 748px;
+    top: 698px;
+  }
+
+  .colon {
+    width: 500px;
+    height: 360px;
+    left: 701px;
+    top: 390px;
+  }
+
+  .catPaint {
+    width: 470px;
+    height: 268px;
+    left: 2117px;
+    top: 530px;
+    transform: rotate(-40deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .forLuck {
+    position: relative;
+    height: 100vh;
+    width: 896px;
+  }
+
+  .saltIllustration {
+    width: 347px;
+    height: 380px;
+    top: 264px;
+    left: -350px;
+  }
+
+  .saltShakerIllustrations {
+    width: 364px;
+    height: 214px;
+    top: 567px;
+    left: -125px;
+    transform: rotateZ(66deg);
+  }
+
+  .catPushes {
+    width: 600px;
+    top: 473px;
+    height: 405px;
+    left: 131px;
+  }
+
+  .phrase {
+    width: 448px;
+    height: 524px;
+    background-size: 401px 512px;
+    top: 82px;
+    left: 500px;
+  }
+
+  .catWords {
+    width: 315px;
+    height: 256px;
+    margin-top: 17px;
+    margin-left: -30px;
+  }
+
+  .vandalism {
+    height: 896px;
+    width: 3196px;
+    background-size: 3196px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 896px;
+    width: 414px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 300px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .eyesRight {
+    height: 896px;
+    width: 414px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 300px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .flashingCats {
+    height: 896px;
+    width: 1500px;
+    margin-right: -20px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 896px;
+    width: 592px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 163px;
+    height: 177px;
+    left: 151px;
+  }
+
+  .sings13 {
+    height: 200px;
+    top: 357px;
+    left: 179px;
+  }
+
+  .bucket {
+    top: 263px;
+    left: 161px;
+    height: 200px;
+  }
+
+  .primetnayaStreet {
+    height: 188px;
+    top: 567px;
+    left: 223px;
+  }
+
+  .home13 {
+    left: 440px;
+    top: 764px;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 414px) and (max-height: 736px) {
+  body {
+    height: 896px;
+  }
+
+  .modularWindow {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 1500px;
+  }
+  .window_ {
+    width: 400px;
+    height: 400px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 0 0 118px 53px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 40px 0 250px -184px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 -20px -241px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 146px -261px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 69px -115px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 180px -242px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 2128px;
+    margin-right: -100px;ы
+  }
+
+  .history {
+    width: 700px;
+    height: 312px;
+    top: 76px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 227px;
+    left: 214px;
+    top: 376px;
+  }
+
+  .dash {
+    width: 340px;
+    height: 237px;
+    left: 1687px;
+    top: 38px;
+  }
+
+  .cat {
+    left: 1430px;
+    height: 400px;
+    top: 97px;
+  }
+
+  .black {
+    width: 420px;
+    height: 200px;
+    left: 581px;
+    top: 533px;
+  }
+
+  .about {
+    width: 250px;
+    height: 350px;
+    left: 1991px;
+    top: 157px;
+  }
+
+  .saltShaker {
+    width: 350px;
+    height: 350px;
+    left: 1616px;
+    top: 385px;
+  }
+
+  .cats {
+    width: 484px;
+    height: 198px;
+    left: 1169px;
+    top: 533px;
+  }
+
+  .colon {
+    width: 500px;
+    height: 360px;
+    left: 876px;
+    top: 375px;
+  }
+
+  .catPaint {
+    width: 470px;
+    height: 268px;
+    left: 2111px;
+    top: 381px;
+    transform: rotate(-24deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .forLuck {
+    position: relative;
+    height: 100vh;
+    width: 736px;
+  }
+
+  .saltIllustration {
+    width: 223px;
+    height: 380px;
+    top: 264px;
+    left: -350px;
+  }
+
+  .saltShakerIllustrations {
+    width: 337px;
+    height: 208px;
+    top: 437px;
+    left: -125px;
+    transform: rotateZ(42deg);
+  }
+
+  .catPushes {
+    width: 500px;
+    top: 393px;
+    height: 305px;
+    left: 150px;
+  }
+
+  .phrase {
+    width: 448px;
+    height: 524px;
+    background-size: 301px 312px;
+    top: 82px;
+    left: 424px;
+  }
+
+  .catWords {
+    width: 215px;
+    height: 256px;
+    margin-top: -180px;
+    margin-left: -125px;
+  }
+
+  .drop_2 {
+    width: 50px;
+    height: 50px;
+    top: 600px;
+    left: 1800px;
+  }
+
+  .drop_6 {
+    width: 50px;
+    height: 50px;
+    top: 600px;
+    left: 1800px;
+  }
+
+  .vandalism {
+    height: 736px;
+    width: 2624px;
+    background-size: 2624px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 736px;
+    width: 414px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 225px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .eyesRight {
+    height: 736px;
+    width: 414px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 225px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .flashingCats {
+    height: 736px;
+    width: 1500px;
+    margin-right: -20px;
+  }
+
+  .bunchOfCats {
+    height: 150px;
+    width: 150px;
+  }
+
+  footer {
+    height: 736px;
+    width: 592px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 172px;
+    height: 177px;
+    left: 139px;
+  }
+
+  .sings13 {
+    height: 150px;
+    top: 316px;
+    left: 213px;
+  }
+
+  .bucket {
+    top: 139px;
+    left: 450px;
+    height: 200px;
+  }
+
+  .primetnayaStreet {
+    height: 168px;
+    top: 463px;
+    left: 223px;
+  }
+
+  .home13 {
+    left: 440px;
+    top: 601px;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 375px) and (max-height: 812px) {
+  body {
+    height: 896px;
+  }
+
+  .modularWindow {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 1500px;
+  }
+  .window_ {
+    width: 400px;
+    height: 400px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 0 0 118px 53px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 40px 0 250px -184px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 -20px -241px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 146px -261px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 69px -115px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 180px -242px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 2128px;
+    margin-right: -100px;ы
+  }
+
+  .history {
+    width: 700px;
+    height: 312px;
+    top: 76px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 227px;
+    left: 214px;
+    top: 376px;
+  }
+
+  .dash {
+    width: 340px;
+    height: 237px;
+    left: 1687px;
+    top: 38px;
+  }
+
+  .cat {
+    left: 1430px;
+    height: 400px;
+    top: 97px;
+  }
+
+  .black {
+    width: 465px;
+    height: 233px;
+    left: 581px;
+    top: 577px;
+  }
+
+  .about {
+    width: 310px;
+    height: 350px;
+    left: 1991px;
+    top: 204px;
+  }
+
+  .saltShaker {
+    width: 350px;
+    height: 350px;
+    left: 1616px;
+    top: 385px;
+  }
+
+  .cats {
+    width: 484px;
+    height: 198px;
+    left: 1169px;
+    top: 533px;
+  }
+
+  .colon {
+    width: 500px;
+    height: 360px;
+    left: 867px;
+    top: 394px;
+  }
+
+  .catPaint {
+    width: 470px;
+    height: 268px;
+    left: 2099px;
+    top: 459px;
+    transform: rotate(-24deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .forLuck {
+    position: relative;
+    height: 100vh;
+    width: 812px;
+  }
+
+  .saltIllustration {
+    width: 223px;
+    height: 380px;
+    top: 264px;
+    left: -350px;
+  }
+
+  .saltShakerIllustrations {
+    width: 361px;
+    height: 219px;
+    top: 499px;
+    left: -125px;
+    transform: rotateZ(42deg);
+  }
+
+  .catPushes {
+    width: 500px;
+    top: 393px;
+    height: 338px;
+    left: 150px;
+  }
+
+  .phrase {
+    width: 448px;
+    height: 524px;
+    background-size: 301px 312px;
+    top: 82px;
+    left: 424px;
+  }
+
+  .catWords {
+    width: 215px;
+    height: 256px;
+    margin-top: -180px;
+    margin-left: -125px;
+  }
+
+  .drop_2 {
+    width: 50px;
+    height: 50px;
+    top: 600px;
+    left: 1800px;
+  }
+
+  .drop_6 {
+    width: 50px;
+    height: 50px;
+    top: 600px;
+    left: 1800px;
+  }
+
+  .vandalism {
+    height: 812px;
+    width: 2896px;
+    background-size: 2896px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 812px;
+    width: 414px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 225px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .eyesRight {
+    height: 736px;
+    width: 414px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 225px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .flashingCats {
+    height: 812px;
+    width: 1500px;
+    margin-right: -20px;
+  }
+
+  .bunchOfCats {
+    height: 150px;
+    width: 150px;
+  }
+
+  footer {
+    height: 812px;
+    width: 592px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 183px;
+    height: 199px;
+    left: 136px;
+  }
+
+  .sings13 {
+    height: 150px;
+    top: 362px;
+    left: 200px;
+  }
+
+  .bucket {
+    top: 155px;
+    left: 429px;
+    height: 231px;
+  }
+
+  .primetnayaStreet {
+    height: 188px;
+    top: 505px;
+    left: 220px;
+  }
+
+  .home13 {
+    left: 423px;
+    top: 687px;
+    height: 125px;
+    width: 170px;
+  }
+}
+@media (max-width: 375px) and (max-height: 667px) {
+
+  body {
+    height: 667px;
+  }
+
+  .modularWindow {
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 1300px;
+  }
+
+  .window_ {
+    width: 400px;
+    height: 400px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 0 0 89px 45px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 40px 0 250px -184px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 34px -241px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 146px -261px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 69px -215px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 180px -342px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 2128px;
+    margin-right: -100px;ы
+  }
+
+  .history {
+    width: 400px;
+    height: 312px;
+    top: 18px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 405px;
+    height: 227px;
+    left: 359px;
+    top: 266px;
+  }
+
+  .dash {
+    width: 400px;
+    height: 237px;
+    left: 1583px;
+    top: 193px;
+  }
+
+  .cat {
+    left: 1035px;
+    height: 500px;
+    top: 54px;
+  }
+
+  .black {
+    width: 420px;
+    height: 200px;
+    left: 354px;
+    top: 467px;
+  }
+
+  .about {
+    width: 314px;
+    height: 330px;
+    left: 1944px;
+    top: 138px;
+  }
+
+  .saltShaker {
+    width: 350px;
+    height: 350px;
+    left: 1389px;
+    top: 319px;
+  }
+
+  .cats {
+    width: 484px;
+    height: 198px;
+    left: 748px;
+    top: 469px;
+  }
+
+  .colon {
+    width: 500px;
+    height: 360px;
+    left: 701px;
+    top: 161px;
+  }
+
+  .catPaint {
+    width: 470px;
+    height: 268px;
+    left: 2152px;
+    top: 302px;
+    transform: rotate(-40deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .forLuck {
+    position: relative;
+    height: 100vh;
+    width: 896px;
+  }
+
+  .saltIllustration {
+    width: 347px;
+    height: 380px;
+    top: 264px;
+    left: -350px;
+  }
+
+  .saltShakerIllustrations {
+    width: 364px;
+    height: 214px;
+    top: 395px;
+    left: -132px;
+    transform: rotateZ(20deg);
+  }
+
+  .catPushes {
+    width: 400px;
+    top: 273px;
+    height: 405px;
+    left: 214px;
+  }
+
+  .phrase {
+    width: 443px;
+    height: 524px;
+    background-size: 376px 442px;
+    top: 82px;
+    left: 495px;
+  }
+
+  .catWords {
+    width: 315px;
+    height: 256px;
+    margin-top: -54px;
+    margin-left: -55px;
+  }
+
+  .vandalism {
+    height: 667px;
+    width: 2396px;
+    background-size: 2396px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 667px;
+    width: 375px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 200px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .eyesRight {
+    height: 896px;
+    width: 414px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 300px;
+    left: 72px;
+    height: 280px;
+    width: 280px;
+  }
+
+  .flashingCats {
+    height: 667px;
+    width: 1500px;
+    margin-right: -20px;
+  }
+
+  .bunchOfCats {
+    height: 150px;
+    width: 150px;
+  }
+
+  footer {
+    height: 667px;
+    width: 592px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 151px;
+    height: 177px;
+    left: 151px;
+  }
+
+  .sings13 {
+    height: 130px;
+    top: 277px;
+    left: 324px;
+  }
+
+  .bucket {
+    top: 262px;
+    left: 159px;
+    height: 130px;
+  }
+
+  .primetnayaStreet {
+    height: 188px;
+    top: 371px;
+    left: 223px;
+  }
+
+  .home13 {
+    left: 440px;
+    top: 537px;
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 320px) and (max-height: 568px) {
+  body {
+    height: 568px;
+  }
+
+  .question {
+    height: 60px;
+    width: 60px;
+  }
+
+  .modularWindow {
+    font-size: 20px;
+    padding: 10px;
+    top: 100px;
+    border: 3px solid black;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 800px;
+  }
+  .window_ {
+    width: 240px;
+    height: 200px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 0 0 65px 15px;
+  }
+
+  .window_2 {
+    position: relative;
+    ыmargin: 40px 0 43px -184px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: -4px 0 -58px -141px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 96px -161px
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 199px -115px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 -50px -142px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 2128px;
+    margin-right: -100px;
+    margin-left: -60px;
+  }
+
+  .history {
+    width: 300px;
+    height: 312px;
+    top: 226px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 200px;
+    height: 91px;
+    left: 345px;
+    top: 477px;
+  }
+
+  .dash {
+    width: 353px;
+    height: 119px;
+    left: 1964px;
+    top: 260px;
+  }
+
+  .cat {
+    left: 949px;
+    height: 400px;
+    top: 165px;
+  }
+
+  .black {
+    width: 420px;
+    height: 200px;
+    left: 354px;
+    top: 55px;
+  }
+
+  .about {
+    width: 173px;
+    height: 192px;
+    left: 1944px;
+    top: 376px;
   }
 
   .saltShaker {
     width: 400px;
     height: 400px;
-    left: 1121px;
-    top: 388px;
+    left: 1452px;
+    top: 167px;
   }
 
   .cats {
-    width: 500px;
-    height: 400px;
-    left: 1497px;
-    top: 322px;
+    width: 284px;
+    height: 198px;
+    left: 673px;
+    top: 174px;
   }
 
   .colon {
-    width: 300px;
-    height: 400px;
-    left: 1521px;
-    top: 84px;
+    width: 200px;
+    height: 251px;
+    left: 670px;
+    top: 317px;
   }
 
   .catPaint {
-    width: 613px;
-    height: 359px;
-    left: 1944px;
-    top: 539px;
+    width: 323px;
+    height: 185px;
+    left: 2255px;
+    top: 358px;
+    transform: rotate(-9deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .forLuck {
+    position: relative;
+    height: 100vh;
+    width: 568px;
   }
 
   .saltIllustration {
-    width: 300px;
-    height: 300px;
-    top: 520px;
+    width: 247px;
+    height: 380px;
+    top: 164px;
+    left: -350px;
   }
 
   .saltShakerIllustrations {
-    width: 613px;
-    height: 400px;
-    top: 500px;
+    width: 264px;
+    height: 214px;
+    top: 294px;
+    left: -125px;
+    transform: rotateZ(33deg);
   }
 
   .catPushes {
-    width: 613px;
-    height: 400px;
+    width: 400px;
+    top: 273px;
+    height: 250px;
+    left: 91px;
   }
 
   .phrase {
-    width: 639px;
-    height: 877px;
-    background-size: 600px 900px;
-    top: -150px;
-    left: 900px;
+    width: 448px;
+    height: 324px;
+    background-size: 271px 312px;
+    top: 56px;
+    left: 317px;
   }
 
   .catWords {
-    width: 300px;
-    height: 300px;
+    width: 195px;
+    height: 256px;
+    margin-top: 17px;
+    margin-left: -181px;
   }
 
   .vandalism {
-    height: 900px;
-    width: 3226px;
-    background-size: 3228px;
+    height: 568px;
+    width: 2033px;
+    background-size: 2033px;
+  }
+
+  .drop_2 {
+    top: 10px;
+  }
+
+  .drop_4 {
+    top: 20px;
+  }
+  .drop_6 {
+    top: 20px;
+  }
+
+  .drop_7 {
+    top: 60px;
+  }
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 300px;
+    left: 1800px;
+  }
+
+  .drop_3 {
+    left: 500px;
   }
 
   .blinks {
     position: relative;
-    height: 900px;
-    width: 1440px;
+    height: 568px;
+    width: 320px;
   }
 
   .eyesLeft {
     position: absolute;
-    top: 50px;
-    left: 350px;
+    top: 200px;
+    left: 72px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .eyesRight {
+    height: 568px;
+    width: 320px;
   }
 
   .eyesLeft:hover ~ .eyesRight {
-    top: 50px;
-    left: 350px;
+    top: 200px;
+    left: 72px;
+    height: 200px;
+    width: 200px;
   }
 
   .flashingCats {
-    height: 900px;
-    width: 2000px;
+    height: 568px;
+    width: 1500px;
+    margin-right: -20px;
+  }
+
+  .bunchOfCats {
+    height: 150px;
+    width: 150px;
   }
 
   footer {
-    height: 900px;
-    width: 1200px;
-    margin-left: -570px;
+    height: 568px;
+    width: 592px;
+    background-size: 2363px;
+    background-position: left;
   }
 
   .museum {
-    top: 61px;
-    left: 61px;
+    top: 2px;
+    height: 177px;
+    left: 151px;
   }
 
   .sings13 {
-    top: 61px;
-    left: 421px;
+    height: 150px;
+    top: 157px;
+    left: 191px;
   }
 
   .bucket {
-    top: 278px;
-    left: 767px;
+    top: 263px;
+    left: 438px;
+    height: 150px;
   }
 
   .primetnayaStreet {
-    top: 361px;
-    left: 397px;
+    height: 176px;
+    top: 305px;
+    left: 194px;
   }
 
   .home13 {
-    top: 681px;
-    left: 910px;
+    left: 449px;
+    top: 463px;
+    height: 105px;
+    width: 146px;
   }
 }
