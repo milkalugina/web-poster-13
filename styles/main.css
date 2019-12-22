@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "1680x1050.css";
+/* @import "1680x1050.css";
 @import "1440x900.css";
 @import "1366x768.css";
 @import "1280x800.css";
@@ -9,7 +9,7 @@
 @import "414x736.css";
 @import "375x812.css";
 @import "375x667.css";
-@import "320x568.css";
+@import "320x568.css"; */
 
 @font-face {
   font-family: 'ApercruPro';
@@ -73,6 +73,10 @@ body {
   background-color: #FF7B7B;
   /* scroll-snap-type: mandatory;
   scroll-snap-points-x: repeat(100%); */
+}
+.window_ {
+  width: 798px;
+  height: 708px;
 }
 
 .window_1 {
@@ -152,6 +156,8 @@ body {
   position: absolute;
   left: 100px;
   top: -39px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .history {
@@ -164,6 +170,8 @@ body {
   position: absolute;
   left: 286px;
   top: 229px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .sings {
@@ -176,6 +184,8 @@ body {
   position: absolute;
   left: 609px;
   top: 50px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .dash {
@@ -188,6 +198,8 @@ body {
   position: absolute;
   left: 885px;
   top: 286px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .cat {
@@ -198,8 +210,10 @@ body {
 .black {
   opacity: 0;
   position: absolute;
-  left: 851px;
+  left: 742px;
   top: 673px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .black {
@@ -212,6 +226,8 @@ body {
   position: absolute;
   left: 1251px;
   top: 51px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .about {
@@ -222,8 +238,10 @@ body {
 .saltShaker {
   opacity: 0;
   position: absolute;
-  left: 1375px;
-  top: 330px;
+  left: 1675px;
+  top: 353px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .saltShaker {
@@ -234,9 +252,11 @@ body {
 .cats {
   opacity: 0;
   position: absolute;
-  left: 1670px;
-  top: 642px;
+  left: 1870px;
+  top: 727px;
   z-index: 2;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .cats {
@@ -247,8 +267,10 @@ body {
 .colon {
   opacity: 0;
   position: absolute;
-  left: 1809px;
-  top: 300px;
+  left: 1571px;
+  top: 271px;
+  height: auto;
+  width: auto;
 }
 
 .fallBlocks:hover .colon {
@@ -258,9 +280,12 @@ body {
 
 .catPaint {
   position: absolute;
-  left: 2052px;
-  top: 849px;
+  left: 1561px;
+  top: 521px;
   z-index: 2;
+  height: 700px;
+  width: 700px;
+  transform: none;
 }
 
 /* @keyframes fall {
@@ -337,14 +362,19 @@ body {
 
 .saltShakerIllustrations {
   position: absolute;
-  left: -220px;
-  top: 649px;
+  left: -211px;
+  width: auto;
+  top: 656px;
+  height: auto;
+  transform: none;
 }
 
 .catPushes {
   position: absolute;
-  left: 482px;
+  left: 491px;
   top: 409px;
+  height: auto;
+  width: auto;
 }
 
 .phrase {
@@ -357,12 +387,16 @@ body {
   position: absolute;
   left: 960px;
   top: -20px;
+
 }
 
 .catWords {
   opacity: 0;
   left: 10px;
   top: 10px;
+  margin: 0;
+  width: auto;
+  height: auto;
   transition: 0.5s;
   animation: flashing 1.5s ease-in-out infinite;
 }
@@ -545,6 +579,7 @@ body {
 .eyesRight {
   position: absolute;
   opacity: 0;
+  height: auto;
 }
 
 .eyesLeft:hover ~ .eyesRight {
@@ -560,6 +595,11 @@ body {
   height: 1080px;
   width: 2170px;
   overflow: hidden;
+}
+
+.bunchOfCats {
+  height: auto;
+  width: auto;
 }
 
 .bunchOfCats:hover {
@@ -582,6 +622,8 @@ footer {
   position: absolute;
   top: 103px;
   left: 344px;
+  height: auto;
+  width: auto;
 }
 
 footer:hover .museum {
@@ -594,6 +636,8 @@ footer:hover .museum {
   position: absolute;
   top: 216px;
   left: 484px;
+  height: auto;
+  width: auto;
 }
 
 footer:hover .sings13 {
@@ -606,6 +650,8 @@ footer:hover .sings13 {
   position: absolute;
   top: 490px;
   left: 983px;
+  height: auto;
+  width: auto;
 }
 
 footer:hover .bucket {
@@ -618,6 +664,8 @@ footer:hover .bucket {
   position: absolute;
   top: 508px;
   left: 437px;
+  height: auto;
+  width: auto;
 }
 
 footer:hover .primetnayaStreet {
@@ -630,6 +678,8 @@ footer:hover .primetnayaStreet {
   position: absolute;
   top: 861px;
   left: 867px;
+  height: auto;
+  width: auto;
 }
 
 footer:hover .home13 {
@@ -646,3 +696,1741 @@ footer:hover .home13 {
   transform: translate3d(0,0,0);
   }
 } */
+
+/* @media (max-width: 414px){
+  body {
+    height: 736px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 3670px;
+  }
+  .window_ {
+    width: 900px;
+    height: 800px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 400px 0 89px 50px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 0 0 -528px -784px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 335px -541px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 -383px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 269px -515px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 6px 0 -290px -221px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 4128px;
+    margin-right: -100px;
+  }
+
+  .history {
+    overflow: hidden;
+    width: 900px;
+    height: 612px;
+    top: 100px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 900px;
+    height: 500px;
+    left: 381px;
+    top: 620px;
+  }
+
+  .dash {
+    width: 600px;
+    height: 237px;
+    left: 1164px;
+    top: 223px;
+  }
+
+  .cat {
+    left: 1258px;
+    height: 700px;
+    top: 412px;
+  }
+
+  .black {
+    width: 680px;
+    height: 422px;
+    left: 854px;
+    top: 1480px;
+  }
+
+  .about {
+    width: 550px;
+    height: 550px;
+    left: 1873px;
+    top: 397px;
+  }
+
+  .saltShaker {
+    width: 700px;
+    height: 700px;
+    left: 1037px;
+    top: 964px;
+  }
+
+  .cats {
+    width: 823px;
+    height: 700px;
+    left: 1692px;
+    top: 1081px;
+  }
+
+  .colon {
+    width: 600px;
+    height: 500px;
+    left: 1561px;
+    top: 881px;
+  }
+
+  .catPaint {
+    width: 855px;
+    height: 494px;
+    left: 1573px;
+    top: 1384px;
+    transform: rotate(-40deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .saltIllustration {
+    width: 439px;
+    height: 380px;
+    top: 764px;
+    left: -462px;
+  }
+
+  .saltShakerIllustrations {
+    width: 934px;
+    height: 514px;
+    top: 1307px;
+    left: -299px;
+    transform: rotateZ(66deg);
+  }
+
+  .catPushes {
+    width: 891px;
+    top: 1200px;
+    height: 805px;
+    left: 430px;
+  }
+
+  .phrase {
+    width: 848px;
+    height: 924px;
+    background-size: 901px 1312px;
+    top: 127px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 619px;
+    height: 681px;
+    margin-top: 340px;
+    margin-left: 40px;
+  }
+
+  .vandalism {
+    height: 2117px;
+    width: 7747px;
+    background-size: 7747px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 2208px;
+    width: 930px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 600px;
+    left: 83px;
+    height: 800px;
+    width: 800px;
+  }
+
+  .eyesRight {
+    height: 2208px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 600px;
+    left: 83px;
+    height: 800px;
+    width: 800px;
+  }
+
+  .flashingCats {
+    height: 2215px;
+    width: 1500px;
+    margin-right: -300px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 2119px;
+    width: 1500px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 353px;
+    height: 500px;
+    left: 51px;
+  }
+
+  .sings13 {
+    height: 606px;
+    top: 656px;
+    left: 249px;
+  }
+
+  .bucket {
+    top: 1023px;
+    left: 836px;
+    height: 572px;
+  }
+
+  .primetnayaStreet {
+    height: 514px;
+    top: 1325px;
+    left: 310px;
+  }
+
+  .home13 {
+    left: 1019px;
+    top: 1772px;
+    height: 350px;
+    width: 500px;
+  }
+} */
+
+@media (max-width: 414px) {
+  body {
+    height: 896px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 3670px;
+  }
+  .window_ {
+    width: 1000px;
+    height: 800px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 400px 0 89px 50px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 0 0 -528px -784px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 335px -541px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 -383px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 12px 0 269px -515px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 6px 0 -290px -221px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 4128px;
+    margin-right: -100px;
+  }
+
+  .history {
+    overflow: hidden;
+    width: 900px;
+    height: 612px;
+    top: 100px;
+    left: 205px;
+  }
+
+  .sings {
+    width: 900px;
+    height: 500px;
+    left: 381px;
+    top: 620px;
+  }
+
+  .dash {
+    width: 600px;
+    height: 237px;
+    left: 1164px;
+    top: 223px;
+  }
+
+  .cat {
+    left: 1258px;
+    height: 700px;
+    top: 412px;
+  }
+
+  .black {
+    width: 680px;
+    height: 422px;
+    left: 854px;
+    top: 1480px;
+  }
+
+  .about {
+    width: 550px;
+    height: 550px;
+    left: 1873px;
+    top: 397px;
+  }
+
+  .saltShaker {
+    width: 700px;
+    height: 700px;
+    left: 1037px;
+    top: 964px;
+  }
+
+  .cats {
+    width: 823px;
+    height: 700px;
+    left: 1692px;
+    top: 1081px;
+  }
+
+  .colon {
+    width: 600px;
+    height: 500px;
+    left: 1561px;
+    top: 881px;
+  }
+
+  .catPaint {
+    width: 855px;
+    height: 494px;
+    left: 1573px;
+    top: 1384px;
+    transform: rotate(-40deg);
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat center / 200%;
+  }
+
+  .saltIllustration {
+    width: 439px;
+    height: 380px;
+    top: 764px;
+    left: -462px;
+  }
+
+  .saltShakerIllustrations {
+    width: 934px;
+    height: 514px;
+    top: 1307px;
+    left: -299px;
+    transform: rotateZ(66deg);
+  }
+
+  .catPushes {
+    width: 891px;
+    top: 1200px;
+    height: 805px;
+    left: 430px;
+  }
+
+  .phrase {
+    width: 848px;
+    height: 924px;
+    background-size: 901px 1312px;
+    top: 127px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 619px;
+    height: 681px;
+    margin-top: 340px;
+    margin-left: 40px;
+  }
+
+  .vandalism {
+    height: 2117px;
+    width: 7747px;
+    background-size: 7747px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 2208px;
+    width: 930px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 600px;
+    left: 83px;
+    height: 800px;
+    width: 800px;
+  }
+
+  .eyesRight {
+    height: 2208px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 600px;
+    left: 83px;
+    height: 800px;
+    width: 800px;
+  }
+
+  .flashingCats {
+    height: 2215px;
+    width: 1500px;
+    margin-right: -300px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 2119px;
+    width: 1500px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 353px;
+    height: 500px;
+    left: 51px;
+  }
+
+  .sings13 {
+    height: 606px;
+    top: 656px;
+    left: 249px;
+  }
+
+  .bucket {
+    top: 1023px;
+    left: 836px;
+    height: 572px;
+  }
+
+  .primetnayaStreet {
+    height: 514px;
+    top: 1325px;
+    left: 310px;
+  }
+
+  .home13 {
+    left: 1019px;
+    top: 1772px;
+    height: 350px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  body {
+    height: 800px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 3191px;
+    margin-right: -2px;
+  }
+  .window_ {
+    width: 847px;
+    height: 747px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 250px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 55px 0 -108px -678px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 224px -476px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 50px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 208px -351px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 52px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .fallBlocks {
+    background-size: 4128px;
+    margin-right: -100px;
+  }
+
+  .history {
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    top: -72px;
+    left: 209px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 206px;
+  }
+
+  .dash {
+    width: 564px;
+    height: 237px;
+    left: 764px;
+    top: 227px;
+  }
+
+  .cat {
+    left: 584px;
+    height: 642px;
+    top: 368px;
+  }
+
+  .black {
+    width: 560px;
+    height: 270px;
+    left: 662px;
+    top: 1037px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1273px;
+    top: 141px;
+  }
+
+  .saltShaker {
+    width: 550px;
+    height: 550px;
+    left: 1017px;
+    top: 698px;
+  }
+
+  .cats {
+    width: 700px;
+    height: 300px;
+    left: 1428px;
+    top: 581px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 274px;
+
+  }
+
+  .catPaint {
+    width: 813px;
+    height: 480px;
+    left: 1700px;
+    top: 813px;
+  }
+
+  .noSings {
+    background: url(../img/textSings.svg) 112px -42px, url(../img/noSings.svg) no-repeat 0 / 130% auto;
+  }
+
+  .saltIllustration {
+    width: 439px;
+    height: 380px;
+    top: 764px;
+    left: -462px;
+  }
+
+  .saltShakerIllustrations {
+    width: 675px;
+    height: 454px;
+    top: 729px;
+    left: -139px;
+  }
+
+  .catPushes {
+    width: 691px;
+    top: 639px;
+    height: 505px;
+    left: 493px;
+  }
+
+  .phrase {
+    width: 715px;
+    height: 930px;
+    background-size: 701px 912px;
+    top: 96px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 364px;
+    height: 381px;
+  }
+
+  .vandalism {
+    height: 1304px;
+    width: 4679px;
+    background-size: 4692px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 1304px;
+    width: 1024px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    height: 800px;
+    width: 800px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 200px;
+    left: 150px;
+    height: 800px;
+    width: 800px;
+  }
+
+  .flashingCats {
+    width: 2000px;
+    height: 100vh;
+    margin-right: -167px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 1308px;
+    width: 1500px;
+    background-size: 2363px;
+    background-position: left;
+  }
+
+  .museum {
+    top: 81px;
+    height: 400px;
+    left: 78px;
+  }
+
+  .sings13 {
+    height: 400px;
+    top: 271px;
+    left: 585px;
+  }
+
+  .bucket {
+    top: 550px;
+    left: 836px;
+    height: 400px;
+  }
+
+  .primetnayaStreet {
+    height: 400px;
+    top: 702px;
+    left: 319px;
+  }
+
+  .home13 {
+    left: 1019px;
+    top: 956px;
+    height: 350px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    height: 800px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 34px 0 24px -482px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 50px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 114px -290px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 52px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+    width: 500px;
+    height: 221px;
+    left: 461px;
+    top: 31px;
+  }
+
+  .cat {
+    left: 880px;
+    height: 402px;
+    top: 110px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 650px;
+    top: 518px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 366px;
+    height: 368px;
+    left: 1064px;
+    top: 398px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 300px;
+    left: 1683px;
+    top: 302px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 513px;
+    height: 293px;
+    left: 2100px;
+    top: 466px;
+  }
+
+  .saltIllustration {
+    width: 250px;
+    height: 300px;
+    top: 374px;
+    left: -328px;
+  }
+
+  .saltShakerIllustrations {
+    width: 513px;
+    height: 286px;
+    top: 475px;
+    left: -139px;
+  }
+
+  .catPushes {
+    width: 613px;
+    top: 289px;
+    height: 442px;
+    left: 329px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 364px;
+    height: 381px;
+  }
+
+  .vandalism {
+    height: 768px;
+    width: 2780px;
+    background-size: 2785px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 768px;
+    width: 1366px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+
+  .flashingCats {
+    height: 800px;
+    width: 2000px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 800px;
+    width: 1160px;
+  }
+
+  .museum {
+    top: 74px;
+    left: 241px;
+  }
+
+  .sings13 {
+    height: 250px;
+    top: 154px;
+    left: 585px;
+  }
+
+  .bucket {
+    top: 306px;
+    left: 836px;
+    height: 217px;
+  }
+
+  .primetnayaStreet {
+    height: 300px;
+    top: 323px;
+    left: 369px;
+  }
+
+  .home13 {
+    left: 870px;
+    top: 549px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+  body {
+    height: 800px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 34px 0 24px -482px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 50px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 114px -290px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 52px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+    width: 500px;
+    height: 221px;
+    left: 461px;
+    top: 31px;
+  }
+
+  .cat {
+    left: 878px;
+    height: 402px;
+    top: 96px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 650px;
+    top: 551px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 366px;
+    height: 368px;
+    left: 1040px;
+    top: 398px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 300px;
+    left: 1683px;
+    top: 302px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 513px;
+    height: 293px;
+    left: 2100px;
+    top: 502px;
+  }
+
+  .saltIllustration {
+    width: 250px;
+    height: 300px;
+    top: 374px;
+    left: -328px;
+  }
+
+  .saltShakerIllustrations {
+    width: 513px;
+    height: 286px;
+    top: 512px;
+    left: -150px;
+  }
+
+  .catPushes {
+    width: 613px;
+    top: 345px;
+    height: 442px;
+    left: 321px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 364px;
+    height: 381px;
+  }
+
+  .vandalism {
+    height: 800px;
+    width: 2857px;
+    background-size: 2854px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 768px;
+    width: 1366px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: -2px;
+    left: 435px;
+    height: 756px;
+    width: 627px;
+  }
+
+  .flashingCats {
+    height: 800px;
+    width: 2000px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 800px;
+    width: 1160px;
+  }
+
+  .museum {
+    top: 74px;
+    left: 241px;
+  }
+
+  .sings13 {
+    height: 250px;
+    top: 154px;
+    left: 585px;
+  }
+
+  .bucket {
+    top: 306px;
+    left: 836px;
+    height: 217px;
+  }
+
+  .primetnayaStreet {
+    height: 300px;
+    top: 323px;
+    left: 369px;
+  }
+
+  .home13 {
+    top: 580px;
+    left: 870px;
+  }
+}
+
+@media (min-width: 1366px) {
+
+  body {
+    height: 768px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 34px 0 24px -482px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 50px -335px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 114px -290px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 52px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+    width: 500px;
+    height: 221px;
+    left: 461px;
+    top: 31px;
+  }
+
+  .cat {
+    left: 878px;
+    height: 400px;
+    top: 87px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 650px;
+    top: 516px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 366px;
+    height: 368px;
+    left: 1066px;
+    top: 398px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 300px;
+    left: 1683px;
+    top: 302px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 513px;
+    height: 293px;
+    left: 2100px;
+    top: 470px;
+  }
+
+  .saltIllustration {
+    width: 250px;
+    height: 300px;
+    top: 374px;
+    left: -328px;
+  }
+
+  .saltShakerIllustrations {
+    width: 513px;
+    height: 286px;
+    top: 461px;
+    left: -150px;
+  }
+
+  .catPushes {
+    width: 613px;
+    top: 288px;
+    height: 442px;
+    left: 321px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 364px;
+    height: 381px;
+  }
+
+  .vandalism {
+    height: 768px;
+    width: 2744px;
+    background-size: 2743px;
+  }
+
+  .drop_8 {
+    top: 300px;
+    left: 1600px;
+  }
+
+  .drop_9 {
+    left: 1700px;
+  }
+
+  .drop_5 {
+    top: 400px;
+    left: 1800px;
+  }
+
+  .drop_4 {
+    top: 600px;
+    left: 1200px;
+  }
+
+  .drop_3 {
+    left: 500px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 768px;
+    width: 1366px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: -18px;
+    left: 435px;
+    height: 775px;
+    width: 700px;
+  }
+  .eyesRight {
+    height: 100vh;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: -18px;
+    left: 435px;
+    height: 775px;
+    width: 700px;
+  }
+
+  .flashingCats {
+    height: 768px;
+    width: 2000px;
+  }
+
+  .bunchOfCats {
+    height: 200px;
+    width: 200px;
+  }
+
+  footer {
+    height: 768px;
+    width: 1160px;
+  }
+
+  .museum {
+    top: 74px;
+    left: 241px;
+  }
+
+  .sings13 {
+    height: 250px;
+    top: 154px;
+    left: 585px;
+  }
+
+  .bucket {
+    top: 306px;
+    left: 836px;
+    height: 217px;
+  }
+
+  .primetnayaStreet {
+    height: 300px;
+    top: 323px;
+    left: 369px;
+  }
+
+  .home13 {
+    top: 547px;
+    left: 870px;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  body {
+    height: 900px;
+  }
+
+  /* БЛОК С ОКНАМИ */
+
+  .window {
+    width: 2000px;
+  }
+  .window_ {
+    width: 600px;
+    height: 600px;
+  }
+
+  .window_1 {
+    position: relative;
+    margin: 100px 0 89px 120px;
+  }
+
+  .window_2 {
+    position: relative;
+    margin: 44px 0 -35px -400px;
+  }
+
+  .window_3 {
+    position: relative;
+    margin: 0 0 150px -350px;
+  }
+
+  .window_4 {
+    position: relative;
+    margin: 0 0 20px -200px;
+  }
+
+  .window_5 {
+    position: relative;
+    margin: 0 0 -100px -350px;
+  }
+
+  .window_6 {
+    position: relative;
+    margin: 0 0 109px -250px;
+  }
+
+  /* ПАДАЮЩИЕ БЛОКИ */
+
+  .history {
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    top: -48px;
+  }
+
+  .sings {
+    width: 500px;
+    height: 500px;
+    left: 272px;
+    top: 60px;
+  }
+
+  .dash {
+  }
+
+  .cat {
+    left: 745px;
+    top: 229px;
+  }
+
+  .black {
+    width: 500px;
+    height: 250px;
+    left: 834px;
+    top: 649px;
+  }
+
+  .about {
+    width: 350px;
+    height: 350px;
+    left: 1223px;
+    top: 50px;
+  }
+
+  .saltShaker {
+    width: 400px;
+    height: 400px;
+    left: 1121px;
+    top: 388px;
+  }
+
+  .cats {
+    width: 500px;
+    height: 400px;
+    left: 1497px;
+    top: 322px;
+  }
+
+  .colon {
+    width: 300px;
+    height: 400px;
+    left: 1521px;
+    top: 84px;
+  }
+
+  .catPaint {
+    width: 613px;
+    height: 359px;
+    left: 1944px;
+    top: 539px;
+  }
+
+  .saltIllustration {
+    width: 300px;
+    height: 300px;
+    top: 520px;
+  }
+
+  .saltShakerIllustrations {
+    width: 613px;
+    height: 400px;
+    top: 500px;
+  }
+
+  .catPushes {
+    width: 613px;
+    height: 400px;
+  }
+
+  .phrase {
+    width: 639px;
+    height: 877px;
+    background-size: 600px 900px;
+    top: -150px;
+    left: 900px;
+  }
+
+  .catWords {
+    width: 300px;
+    height: 300px;
+  }
+
+  .vandalism {
+    height: 900px;
+    width: 3226px;
+    background-size: 3228px;
+  }
+
+  .blinks {
+    position: relative;
+    height: 900px;
+    width: 1440px;
+  }
+
+  .eyesLeft {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+  }
+
+  .eyesLeft:hover ~ .eyesRight {
+    top: 50px;
+    left: 350px;
+  }
+
+  .flashingCats {
+    height: 900px;
+    width: 2000px;
+  }
+
+  footer {
+    height: 900px;
+    width: 1200px;
+    margin-left: -570px;
+  }
+
+  .museum {
+    top: 61px;
+    left: 61px;
+  }
+
+  .sings13 {
+    top: 61px;
+    left: 421px;
+  }
+
+  .bucket {
+    top: 278px;
+    left: 767px;
+  }
+
+  .primetnayaStreet {
+    top: 361px;
+    left: 397px;
+  }
+
+  .home13 {
+    top: 681px;
+    left: 910px;
+  }
+}
