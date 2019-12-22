@@ -2048,6 +2048,7 @@ footer:hover .home13 {
     left: 150px;
     height: 600px;
     width: 800px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -2326,6 +2327,7 @@ footer:hover .home13 {
     left: 72px;
     height: 280px;
     width: 280px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -2618,6 +2620,7 @@ footer:hover .home13 {
     left: 72px;
     height: 280px;
     width: 280px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -2910,6 +2913,7 @@ footer:hover .home13 {
     left: 72px;
     height: 280px;
     width: 280px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -3190,6 +3194,7 @@ footer:hover .home13 {
     left: 72px;
     height: 280px;
     width: 280px;
+    opacity: 1;
   }
 
   .flashingCats {
@@ -3476,8 +3481,9 @@ footer:hover .home13 {
   }
 
   .eyesRight {
-    height: 568px;
-    width: 320px;
+    height: 200px;
+    width: 200px;
+    opacity: 0;
   }
 
   .eyesLeft:hover ~ .eyesRight {
@@ -3485,6 +3491,7 @@ footer:hover .home13 {
     left: 72px;
     height: 200px;
     width: 200px;
+    opacity: 1;
   }
 
   .flashingCats {
